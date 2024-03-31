@@ -1,0 +1,88 @@
+{% include 'header.html' %}
+<div class="container for-pulse col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-lg-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../static/img/c1.jpg" class="d-block w-100 rounded carousel-img" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../static/img/c2.jpg" class="d-block w-100 rounded carousel-img" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../static/img/c3.jpg" class="d-block w-100 rounded carousel-img" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev animate__animated animate__fadeInLeft" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next animate__animated animate__fadeInRight" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 animate__animated animate__fadeInLeft">Discover, Learn, and Grow with Questify</h1>
+        <p class="lead animate__animated animate__fadeInRight">Welcome to Questify, your gateway to boundless learning opportunities! Explore a world of knowledge with our interactive courses, expert instructors, and cutting-edge learning tools...</p>
+        </div>
+    </div>
+  </div>
+
+<div class="text-bg-primary  pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <div class="my-3 py-3">
+        <h2 class="display-5">Python</h2>
+        <p class="lead">Versatile, Dynamic, Scalable</p>
+      </div>
+      <div class="bg-body-tertiary shadow-sm mx-auto" style="width: 60%; height: 300px; border-radius: 21px 21px 0 0;">
+          <a class="btn btn-primary my-3" href="{{ url_for('python_data') }}">Learn Python</a>
+          <br>
+          <a class="btn btn-secondary my-3" href="{{ url_for('all_topic', category_id=1) }}">Video Tutorial</a>
+          <br>
+          <img class="d-block mx-auto " src="../static/img/python_img.png" alt="python img"  height="200">
+      </div>
+    </div>
+<div class="text-bg-info  pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <div class="my-3 py-3">
+        <h2 class="display-5">HTML</h2>
+        <p class="lead">Foundational, Structured, Web</p>
+      </div>
+      <div class="bg-body-tertiary shadow-sm mx-auto" style="width: 60%; height: 300px; border-radius: 21px 21px 0 0;">
+          <a class="btn btn-primary my-3" href="{{ url_for('html_data') }}">Learn Html</a>
+          <br>
+          <a class="btn btn-secondary my-3" href="{{ url_for('all_topic', category_id=2) }}">Video Tutorial</a>
+          <br>
+          <img class="d-block mx-auto mt-4" src="../static/img/html_img.png" alt="Html img"  height="100">
+      </div>
+    </div>
+<div class="text-bg-success  pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <div class="my-3 py-3">
+        <h2 class="display-5">SQL</h2>
+        <p class="lead">Relational, Querying, Database.</p>
+      </div>
+      <div class="bg-body-tertiary shadow-sm mx-auto" style="width: 60%; height: 300px; border-radius: 21px 21px 0 0;">
+          <a class="btn btn-primary my-3" href="{{ url_for('sql_data') }}">Learn SQL</a>
+          <br>
+          <a class="btn btn-secondary my-3" href="{{ url_for('all_topic', category_id=3) }}">Video Tutorial</a>
+          <br>
+          <img class="d-block mx-auto mt-3" src="../static/img/sql_img.png" alt="SQL img"  height="130">
+      </div>
+    </div>
+<div class="text-bg-secondary  pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <div class="my-3 py-3">
+        <h2 class="display-5">Data Science</h2>
+        <p class="lead">Analytical, Insightful, Predictive, Innovative</p>
+      </div>
+      <div class="bg-body-tertiary shadow-sm mx-auto" style="width: 60%; height: 300px; border-radius: 21px 21px 0 0;">
+          <a class="btn btn-primary my-3" href="{{ url_for('learn_data') }}">Learn Data Science</a>
+          <br>
+          <a class="btn btn-secondary my-3" href="{{ url_for('all_topic', category_id=4) }}">Video Tutorial</a>
+          <br>
+          <img class="d-block mx-auto " src="../static/img/datascience_img.png" alt="Data Science img"  height="150">
+      </div>
+    </div>
+{% include 'footer.html' %}
+
+

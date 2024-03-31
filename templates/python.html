@@ -1,0 +1,553 @@
+{% include 'header.html' %}
+<div class="mt-2"></div>
+<div class="row">
+  <div class="col-4">
+    <nav id="navbar-example3" class="navbar navbar-light bg-light flex-column align-items-stretch p-3">
+      <nav class="nav nav-pills flex-column">
+        <a class="nav-link" href="#item-1">About Python</a>
+        <a class="nav-link" href="#item-2">First Program</a>
+        <a class="nav-link" href="#item-3">Python Comments</a>
+        <a class="nav-link" href="#item-4">Python Variables</a>
+        <a class="nav-link" href="#item-5">Python Data Types</a>
+        <a class="nav-link" href="#item-6">Python Strings</a>
+        <a class="nav-link" href="#item-7">Python Lists</a>
+        <a class="nav-link" href="#item-8">Python Tuples</a>
+        <a class="nav-link" href="#item-9">Python Dictionaries</a>
+        <a class="nav-link" href="#item-10">Python Sets</a>
+        <a class="nav-link" href="#item-11">Python Loops</a>
+        <a class="nav-link" href="#item-12">Python If-Else</a>
+        <a class="nav-link" href="#item-13">Python Functions</a>
+        <a class="nav-link" href="#item-14">Python Lambda</a>
+        <a class="nav-link" href="#item-15">Python Try...Except</a>
+        <a class="nav-link" href="#item-16">Python Inheritance</a>
+        <a class="nav-link" href="#item-17">New & Updated Topics</a>
+      </nav>
+    </nav>
+  </div>
+
+  <div class="col-8">
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+      <div id="item-1">
+        <h2>What is Python?</h2>
+        <p>Python is a popular programming language. It was created by Guido van Rossum,
+and released in 1991.</p>
+        <p>It is used for:</p>
+        <ul>
+<li>web development (server-side), </li>
+<li>software development, </li>
+<li>mathematics,</li>
+<li>system scripting.</li>
+</ul>
+        <h3>What can Python do?</h3>
+<ul>
+<li>Python can be used on a server to create web applications.</li>
+<li>Python can be used alongside software to create workflows.</li>
+<li>Python can connect to database systems. It can also read and modify files.</li>
+<li>Python can be used to handle big data and perform complex mathematics.</li>
+<li>Python can be used for rapid prototyping, or for production-ready software development.</li>
+</ul>
+
+<h3>Why Python?</h3>
+<ul>
+<li>Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).</li>
+<li>Python has a simple syntax similar to the English language.</li>
+<li>Python has syntax that allows developers to write programs with fewer lines than some other programming languages.</li>
+<li>Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.</li>
+<li>Python can be treated in a procedural way, an object-oriented way or a functional way.</li>
+</ul>
+
+<h3>Good to know</h3>
+<ul>
+<li>The most recent major version of Python is Python 3, which we shall be using in this tutorial. However, Python 2, although not being updated with anything other than security updates, is still quite popular.</li>
+<li>In this tutorial Python will be written in a text editor. It is possible to write Python in an Integrated Development Environment, such as Thonny, Pycharm, Netbeans or Eclipse which are particularly useful when managing larger collections of Python files.</li>
+</ul>
+
+<h3>Python Syntax compared to other programming languages</h3>
+<ul>
+<li>Python was designed for readability, and has some similarities to the English language with influence from mathematics.</li>
+<li>Python uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses.</li>
+<li>Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose.</li>
+</ul>
+          <hr>
+          <hr>
+      <div id="item-2">
+        <h2>Python First Program</h2>
+          <p style="text-align: center;"><b>print("Hello, World!")</b></p>
+<ul><li>
+The traditional "Hello, World!" program is often the first program beginners write when learning a new programming language. It simply prints the string "Hello, World!" to the console, demonstrating the basic syntax for output in Python.
+</li>
+    <li>Function Call: The 'print()' function is used to display output in Python. It takes one or more arguments (separated by commas) and prints them to the standard output (usually the console).</li>
+    <li>String: The argument passed to print() is a string "Hello, World!". Strings in Python can be enclosed in single (') or double (") quotes.</li>
+    <li>Parentheses: Parentheses () are used to enclose the arguments passed to functions in Python. They are optional if the function doesn't take any arguments, but it's good practice to include them.</li>
+    <li>Quotation Marks: Quotation marks (") are used to denote strings in Python. Both single and double quotes are valid for defining strings, and you can use them interchangeably.</li>
+    <li>Whitespace: Python ignores leading and trailing whitespace around the string. However, whitespace inside the string is preserved and included in the output.</li>
+</ul>
+      </div>
+          <hr>
+          <hr>
+      <div id="item-3">
+        <h2>Python Comments</h2>
+        <p style="text-align: center;"><b># This is a single-line comment
+            <br>
+
+"""
+This is a
+multi-line comment
+"""
+</b></p>
+          <ul><li> Comments in Python are used to annotate code and provide explanations. Single-line comments start with a hash (#) symbol, while multi-line comments are enclosed in triple quotes (""" ... """). Comments are ignored by the Python interpreter and are useful for documenting code.</li></ul>
+      </div>
+          <hr>
+          <hr>
+      <div id="item-4">
+        <h2>Python Variables</h2>
+        <p><b>What are Variables?</b> Variables in Python are used to store data values. A variable is like a container that holds a value which can be referenced and manipulated throughout the program.
+            <br><br>
+
+<b>Naming Rules:</b> Variable names can contain letters, numbers, and underscores but cannot start with a number. They are case-sensitive (age, Age, and AGE are different variables). It's recommended to use descriptive names to make code more readable.
+            <br><br>
+<b>Dynamic Typing:</b> Python is dynamically typed, meaning you don't need to specify the variable type explicitly. The interpreter automatically determines the data type based on the value assigned to the variable.</p>
+      </div>
+          <br>
+          <br>
+          <h3>Common Types of Variables:</h3>
+          <ul>
+              <li><b>Integer (int):</b> Stores whole numbers without decimal points.
+              <p class="b2k">age = 25
+</p>
+              </li>
+              <li><b>Float (float):</b> Stores floating-point numbers with decimal points.
+              <p class="b2k">height = 5.9
+
+</p>
+              </li>
+              <li><b>String (str):</b> Stores sequences of characters enclosed in single or double quotes.
+                  <p class="b2k">name = "John"
+
+                  </p>
+              </li>
+              <li><b>Boolean (bool):</b>  Stores either True or False.
+              <p class="b2k">is_student = True
+
+</p>
+              </li>
+              <li><b>Examples:</b>
+              <p ># Integer
+age = 25
+                  <br>
+# Float
+height = 5.9
+                  <br>
+# String
+name = "John"
+                  <br>
+# Boolean
+is_student = True
+                  <br>
+</p>
+              </li>
+          </ul>
+<!--      <div id="item-3-2">-->
+<!--        <h5>Item 3-2</h5>-->
+<!--        <p>...</p>-->
+<!--      </div>-->
+    </div>
+        <hr>
+        <hr>
+        <div id="item-5">
+            <h2>Python Data Types</h2>
+            <p><b>What are Data Types?</b> Data types in Python represent the type of data that a variable can store. Python is dynamically typed, meaning you don't need to specify the data type explicitly; the interpreter automatically determines it based on the value assigned to the variable.
+            <br><br>
+            <h3>Common Data Types in Python:</h3>
+          <ul>
+              <li><b>Numeric Types:</b> <ul><li><b>Integer (int):</b> Stores whole numbers without decimal points. <p>x = 10   # Integer</p></li>
+              <li><b>Float (float):</b>  Stores floating-point numbers with decimal points.<p>y = 3.14   # Float</p></li>
+              <li><b>Complex (complex):</b> Stores complex numbers in the form 'a + bi'.<p>z = 2 + 3j   # Complex
+</p></li></ul>
+        </li>
+              <li><b>Sequence Types:</b> <ul><li><b>List (list):</b> Stores ordered collections of items. Lists are mutable, meaning their elements can be modified after creation. <p>numbers = [1, 2, 3, 4, 5]  # List
+
+</p></li>
+              <li><b>Tuple (tuple): </b>  Similar to lists, but tuples are immutable, meaning their elements cannot be changed after creation.<p>point = (3, 4)  # Tuple</p></li>
+              <li><b>Range (range): </b> Represents a sequence of numbers.<p>my_range = range(5)  # Range
+</p></li></ul>
+        </li>
+
+             <li><b>Mapping Type:</b> <ul><li><b>Dictionary (dict):</b>  Stores key-value pairs. Dictionaries are unordered collections of items, where each key maps to a corresponding value.<p>x = 10   # Integer</p></li>
+              </ul>
+              <li><b>Boolean (bool):</b>  Stores either True or False.
+              <p>is_student = True
+
+</p>
+              </li>
+
+          </ul>
+            </div>
+        <hr>
+        <hr>
+        <div id="item-6">
+    <h2>Python Strings</h2>
+    <p><b>Definition:</b> A string in Python is a sequence of characters, enclosed in single ('') or double ("") quotes.</p>
+    <ul>
+        <li><b>Characteristics:</b>
+            <ul>
+                <li>Strings can contain letters, numbers, symbols, and whitespace.</li>
+                <li>Strings support various operations like indexing, slicing, concatenation, and formatting.</li>
+                <li>Strings are immutable, meaning their contents cannot be changed after creation.</li>
+            </ul>
+        </li>
+        <li><b>Usage:</b> Strings are used to represent text data in Python. They are fundamental data types and are widely used in various operations and applications, including text processing, data manipulation, and input/output operations.</li>
+        <li><b>Examples:</b>
+            <ul>
+                <li><code>name = 'John'</code></li>
+                <li><code>message = "Hello, World!"</code></li>
+            </ul>
+        </li>
+        <li><b>Operations:</b>
+            <ul>
+                <li><b>Indexing:</b> Access individual characters in a string using their position (index).</li>
+                                <li><b>Slicing:</b> Extract a substring from a string using slice notation.</li>
+                <li><b>Concatenation:</b> Combine two or more strings into a single string using the + operator.</li>
+                <li><b>String Methods:</b> Strings support various built-in methods for manipulating and formatting text, such as <code>upper()</code>, <code>lower()</code>, <code>strip()</code>, <code>split()</code>, <code>join()</code>, <code>replace()</code>, and more.</li>
+                <li><b>String Formatting:</b> Format strings using the <code>format()</code> method or f-strings (formatted string literals) for more concise and readable formatting.</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+        <hr>
+        <hr>
+
+<div id="item-7">
+    <h2>Python Lists</h2>
+    <p><b>Definition:</b> A list in Python is an ordered collection of items, enclosed in square brackets [].</p>
+    <ul>
+        <li><b>Characteristics:</b>
+            <ul>
+                <li>Lists can contain elements of different data types, including integers, floats, strings, and even other lists.</li>
+                <li>Lists are mutable, meaning their elements can be modified after creation.</li>
+                <li>List elements are ordered and can be accessed using indexing and slicing.</li>
+            </ul>
+        </li>
+        <li><b>Usage:</b> Lists are versatile and widely used in Python for storing and manipulating data. They are used to represent sequences of items, such as numbers, names, or any other type of data.</li>
+        <li><b>Examples:</b>
+            <ul>
+                <li><code>numbers = [1, 2, 3, 4, 5]</code></li>
+                <li><code>names = ['John', 'Alice', 'Bob']</code></li>
+            </ul>
+        </li>
+        <li><b>Operations:</b>
+            <ul>
+                <li><b>Indexing:</b> Access individual elements in a list using their position (index).</li>
+                <li><b>Slicing:</b> Extract a sublist (slice) from a list using slice notation.</li>
+                <li><b>Appending and Extending:</b> Add new elements to the end of a list using the <code>append()</code> method or add multiple elements using the <code>extend()</code> method.</li>
+                <li><b>Removing Elements:</b> Remove elements from a list using methods like <code>remove()</code>, <code>pop()</code>, or <code>del</code>.</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<hr>
+        <hr>
+<div id="item-8">
+    <h2>Python Tuples</h2>
+    <p><b>Definition:</b> A tuple in Python is an ordered collection of items, enclosed in parentheses ().</p>
+    <ul>
+        <li><b>Characteristics:</b>
+            <ul>
+                <li>Tuples are similar to lists but are immutable, meaning their elements cannot be changed after creation.</li>
+                <li>Tuples can contain elements of different data types, and they preserve the order of elements.</li>
+                <li>Tuple elements are accessed using indexing and slicing, similar to lists.</li>
+            </ul>
+        </li>
+        <li><b>Usage:</b> Tuples are often used to represent fixed collections of items, such as coordinates, database records, or function arguments.</li>
+        <li><b>Examples:</b>
+            <ul>
+                <li><code>point = (3, 4)</code></li>
+                <li><code>coordinates = (x, y)</code></li>
+            </ul>
+        </li>
+        <li><b>Operations:</b>
+            <ul>
+                <li><b>Indexing:</b> Access individual elements in a tuple using their position (index).</li>
+                <li><b>Slicing:</b> Extract a subtuple (slice) from a tuple using slice notation.</li>
+                <li><b>Unpacking:</b> Assign tuple elements to variables in a single line using tuple unpacking.</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+        <hr>
+        <hr>
+        <div id="item-9">
+    <h2>Python Dictionaries</h2>
+    <p><b>Definition:</b> A dictionary in Python is an unordered collection of key-value pairs, enclosed in curly braces {}.</p>
+    <ul>
+        <li><b>Characteristics:</b>
+            <ul>
+                <li>Dictionaries are mutable, meaning you can add, remove, or modify key-value pairs after creation.</li>
+                <li>Each key in a dictionary must be unique, and it maps to a corresponding value.</li>
+                <li>Dictionary keys can be of any immutable data type (e.g., string, integer, tuple), while values can be of any data type.</li>
+            </ul>
+        </li>
+        <li><b>Usage:</b> Dictionaries are commonly used for storing and retrieving data in a structured manner, such as user profiles, configuration settings, or any data that can be organized into key-value pairs.</li>
+        <li><b>Examples:</b>
+            <ul>
+                <li><code>my_dict = {"name": "John", "age": 30}</code></li>
+                <li><code>empty_dict = {}</code></li>
+            </ul>
+        </li>
+        <li><b>Operations:</b>
+            <ul>
+                <li><b>Accessing Values:</b> Use square brackets [] and the key to access the value associated with a key.</li>
+                <li><b>Adding or Modifying Elements:</b> Assign a value to a new key or an existing key to add or modify elements in a dictionary.</li>
+                <li><b>Removing Elements:</b> Use the <code>del</code> keyword, <code>pop()</code> method, or <code>popitem()</code> method to remove elements from a dictionary.</li>
+                <li><b>Dictionary Methods:</b> Dictionaries support various methods for manipulating and accessing data, such as <code>keys()</code>, <code>values()</code>, <code>items()</code>, <code>update()</code>, <code>clear()</code>, and more.</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+        <hr>
+        <hr>
+<div id="item-10">
+    <h2>Python Sets</h2>
+    <p><b>Definition:</b> A set in Python is an unordered collection of unique elements, enclosed in curly braces {}.</p>
+    <ul>
+        <li><b>Characteristics:</b>
+            <ul>
+                <li>Sets do not allow duplicate elements. If you try to add a duplicate element to a set, it will be ignored.</li>
+                <li>Sets are mutable, meaning you can add or remove elements from a set after its creation.</li>
+                <li>Set elements are unordered, meaning they are not indexed and their order may change arbitrarily.</li>
+            </ul>
+        </li>
+        <li><b>Usage:</b> Sets are useful for various operations involving distinct elements, such as finding unique items in a collection, performing set operations like union, intersection, and difference, and eliminating duplicates from a list or other data structures.</li>
+        <li><b>Examples:</b>
+            <ul>
+                <li><code>my_set = {1, 2, 3, 4, 5}</code></li>
+                <li><code>my_set = set([1, 2, 2, 3, 3, 4])  # Removes duplicates</code></li>
+            </ul>
+        </li>
+        <li><b>Operations:</b>
+            <ul>
+                <li><b>Adding Elements:</b> Use the <code>add()</code> method to add a single element to a set, and the <code>update()</code> method to add multiple elements.</li>
+                <li><b>Removing Elements:</b> Use the <code>remove()</code> or <code>discard()</code> method to remove a specific element from a set.</li>
+                <li><b>Set Operations:</b> Sets support various set operations like union (<code>union()</code>), intersection (<code>intersection()</code>), difference (<code>difference()</code>), symmetric difference (<code>symmetric_difference()</code>), and more.</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<hr>
+        <hr>
+<div id="item-11">
+    <h2>Loops in Python</h2>
+    <p><b>Definition:</b> Loops in Python are control flow structures that execute a block of code repeatedly until a certain condition is met. They allow you to automate repetitive tasks and iterate over sequences of data.</p>
+    <h3>Common Types of Loops</h3>
+    <ul>
+        <li><b>For Loop:</b> Executes a block of code repeatedly for a specified number of times or over a sequence of items.
+            <br>
+            <p><b>Example:</b></p>
+            <pre><code>for i in range(5):
+    print(i)
+</code></pre>
+            <p><b>Explanation:</b> The for loop iterates over a sequence of numbers generated by the range function. In each iteration, the variable <code>i</code> takes on the value of the current number in the sequence, and the print statement displays it.</p>
+        </li>
+        <li><b>While Loop:</b> Executes a block of code repeatedly as long as a specified condition is true.
+            <br>
+            <p><b>Example:</b></p>
+            <pre><code>count = 0
+while count < 5:
+    print(count)
+    count += 1
+</code></pre>
+            <p><b>Explanation:</b> The while loop continues to execute the block of code as long as the condition <code>count < 5</code> is true. Inside the loop, the count variable is incremented by 1 in each iteration, and its value is printed.</p>
+        </li>
+    </ul>
+</div>
+        <hr>
+        <hr>
+<div id="item-12">
+     <h2>Conditional Statements in Python</h2>
+    <p><b>Definition:</b> Conditional statements in Python are control flow structures that execute different blocks of code based on specified conditions. They allow you to make decisions in your code and control its flow based on various factors.</p>
+    <h3>If-Else Conditions</h3>
+    <ul>
+        <li><b>If Statement:</b> Executes a block of code if a specified condition is true.
+            <br>
+            <p><b>Example:</b></p>
+            <pre><code>x = 10
+if x > 0:
+    print("Positive")
+</code></pre>
+            <p><b>Explanation:</b> The if statement checks whether the variable <code>x</code> is greater than 0. If the condition is true, the print statement inside the if block is executed, displaying "Positive".</p>
+        </li>
+        <li><b>If-Else Statement:</b> Executes one block of code if a specified condition is true and another block if the condition is false.
+            <br>
+            <p><b>Example:</b></p>
+            <pre><code>x = -5
+if x > 0:
+    print("Positive")
+else:
+    print("Negative")
+</code></pre>
+            <p><b>Explanation:</b> The if-else statement evaluates whether the variable <code>x</code> is greater than 0. If it is true, the first block of code (after the if keyword) is executed, displaying "Positive". Otherwise, the second block of code (after the else keyword) is executed, displaying "Negative".</p>
+        </li>
+        <li><b>If-Elif-Else Statement:</b> Executes different blocks of code based on multiple conditions.
+            <br>
+            <p><b>Example:</b></p>
+            <pre><code>x = 0
+if x > 0:
+    print("Positive")
+elif x < 0:
+    print("Negative")
+else:
+    print("Zero")
+</code></pre>
+            <p><b>Explanation:</b> The if-elif-else statement first checks if the variable <code>x</code> is greater than 0. If true, it displays "Positive". If not, it proceeds to the next condition and checks if <code>x</code> is less than 0. If true, it displays "Negative". If both conditions are false, it executes the else block and displays "Zero".</p>
+        </li>
+    </ul>
+</div>
+        <hr>
+        <hr>
+
+<div id="item-13">
+    <h2>Python Functions</h2>
+    <p><b>Definition:</b> A function in Python is a reusable block of code that performs a specific task. Functions allow you to organize code into logical units, making it easier to understand, debug, and maintain.</p>
+    <ul>
+        <li><b>Characteristics:</b>
+            <ul>
+                <li>Functions can take input arguments, perform operations, and return results.</li>
+                <li>They can be defined using the <code>def</code> keyword followed by a function name, optional parameters, and a block of code.</li>
+                <li>Functions can have optional default parameters, variable-length argument lists, and keyword arguments.</li>
+            </ul>
+        </li>
+        <li><b>Usage:</b> Functions are used to encapsulate reusable code and perform specific tasks. They promote code reusability, modularity, and abstraction.</li>
+        <li><b>Examples:</b>
+            <ul>
+                <li><code>def greet(name):
+    print("Hello, " + name)</code></li>
+                <li><code>def add(x, y):
+    return x + y</code></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+        <hr>
+        <hr>
+        <div id="item-14">
+    <h2>Python Lambda Functions</h2>
+    <p><b>Definition:</b> Lambda functions, also known as anonymous functions, are small, inline functions defined using the <code>lambda</code> keyword.</p>
+    <ul>
+        <li><b>Characteristics:</b>
+            <ul>
+                <li>Lambda functions can take any number of arguments but can only have one expression.</li>
+                <li>They are often used as short, throwaway functions for simple operations.</li>
+                <li>Lambda functions are typically used with higher-order functions like <code>map()</code>, <code>filter()</code>, and <code>reduce()</code>.</li>
+            </ul>
+        </li>
+        <li><b>Usage:</b> Lambda functions are useful in situations where you need a small, temporary function without defining a separate named function.</li>
+        <li><b>Examples:</b>
+            <ul>
+                <li><code>add = lambda x, y: x + y</code></li>
+                <li><code>square = lambda x: x ** 2</code></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+        <hr>
+        <hr>
+<div id="item-15">
+    <h2>Python Try-Except Blocks</h2>
+    <p><b>Definition:</b> Try-except blocks in Python are used for exception handling, allowing you to handle errors and exceptions gracefully.</p>
+    <ul>
+        <li><b>Characteristics:</b>
+            <ul>
+                <li>The <code>try</code> block contains the code that may raise an exception.</li>
+                <li>The <code>except</code> block catches and handles exceptions that occur within the <code>try</code> block.</li>
+                <li>Multiple <code>except</code> blocks can be used to handle different types of exceptions.</li>
+                <li>An optional <code>else</code> block can be used to execute code if no exceptions occur in the <code>try</code> block.</li>
+                <li>An optional <code>finally</code> block can be used to execute cleanup code regardless of whether an exception occurs or not.</li>
+            </ul>
+        </li>
+        <li><b>Usage:</b> Try-except blocks are used to gracefully handle errors and prevent program crashes caused by unexpected exceptions.</li>
+        <li><b>Examples:</b>
+            <ul>
+                <li><code>try:
+    result = x / y
+except ZeroDivisionError:
+    print("Error: Division by zero")
+else:
+    print("Result:", result)</code></li>
+                <li><code>try:
+    file = open("example.txt", "r")
+    content = file.read()
+except FileNotFoundError:
+    print("Error: File not found")
+finally:
+    file.close()</code></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+        <hr>
+        <hr>
+<div id="item-16">
+    <h2>Python Inheritance</h2>
+    <p><b>Definition:</b> Inheritance in Python is a mechanism where a class (subclass) inherits properties and behavior from another class (superclass). It allows you to create new classes based on existing ones, promoting code reuse and extensibility.</p>
+    <ul>
+        <li><b>Characteristics:</b>
+            <ul>
+                <li>Inheritance forms an "is-a" relationship between classes, where the subclass is a specialized version of the superclass.</li>
+                <li>Subclasses inherit attributes and methods from their superclass but can also define their own attributes and methods.</li>
+                <li>Python supports single inheritance (a subclass can inherit from only one superclass) and multiple inheritance (a subclass can inherit from multiple superclasses).</li>
+            </ul>
+        </li>
+        <li><b>Usage:</b> Inheritance is used to create hierarchical relationships between classes and promote code reuse by inheriting common functionality from a superclass.</li>
+        <li><b>Examples:</b>
+            <ul>
+                <li><code>class Animal:
+    def speak(self):
+        print("Animal speaks")
+
+class Dog(Animal):
+    def bark(self):
+        print("Dog barks")
+
+class Cat(Animal):
+    def meow(self):
+        print("Cat meows")
+
+dog = Dog()
+dog.speak()  # Output: Animal speaks
+dog.bark()   # Output: Dog barks
+
+cat = Cat()
+cat.speak()  # Output: Animal speaks
+cat.meow()   # Output: Cat meows</code></li>
+            </ul>
+        </li>
+        <li><b>Types of Inheritance:</b>
+            <ul>
+                <li><b>Single Inheritance:</b> A subclass inherits from only one superclass. This is the most common type of inheritance in Python.</li>
+                <li><b>Multiple Inheritance:</b> A subclass inherits from multiple superclasses. Python supports multiple inheritance, allowing a subclass to inherit attributes and methods from more than one superclass.</li>
+                <li><b>Multilevel Inheritance:</b> In multilevel inheritance, a subclass inherits from another subclass, creating a hierarchical chain of classes.</li>
+                <li><b>Hierarchical Inheritance:</b> Hierarchical inheritance involves multiple subclasses inheriting from a single superclass. Each subclass can further have its own subclasses, forming a hierarchical structure.</li>
+                <li><b>Hybrid Inheritance:</b> Hybrid inheritance is a combination of different types of inheritance, such as single inheritance, multiple inheritance, or multilevel inheritance.</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+        <hr>
+        <hr>
+<div id="item-17">
+    {% if data.new_data %}
+    <p>{{ data.new_data|safe }}</p>
+        {% if current_user.email == 'devsingh2017dp@gmail.com' %}
+            <a class="btn btn-primary mt-2" href="{{ url_for('edit_content', category=data.category) }}">Add Content</a>
+        {% endif %}
+{% else %}
+    <p>This time no new topic is available</p>
+{% endif %}
+</div>
+        <hr>
+        <hr>
+  </div>
+</div>
+</div>
+{% include 'footer.html' %}

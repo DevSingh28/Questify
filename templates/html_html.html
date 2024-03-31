@@ -1,0 +1,285 @@
+{% include 'header.html' %}
+<div class="mt-2"></div>
+<div class="row">
+  <div class="col-4">
+    <nav id="navbar-example3" class="navbar navbar-light bg-light flex-column align-items-stretch p-3">
+      <nav class="nav nav-pills flex-column">
+        <a class="nav-link" href="#item-1">About Html</a>
+        <a class="nav-link" href="#item-2">Html Basic Structure</a>
+        <a class="nav-link" href="#item-3">Html Elements</a>
+        <a class="nav-link" href="#item-4">Html Forms</a>
+        <a class="nav-link" href="#item-5">Html Tables</a>
+        <a class="nav-link" href="#item-6">Html Metadata</a>
+        <a class="nav-link" href="#item-7">Html Links</a>
+        <a class="nav-link" href="#item-8">Html Semantic Elements</a>
+        <a class="nav-link" href="#item-9">Html vs Html5</a>
+        <a class="nav-link" href="#item-10">New & Updated Topics</a>
+      </nav>
+    </nav>
+  </div>
+
+  <div class="col-8">
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+<div id="item-1">
+    <h2>HTML Basics</h2>
+    <p><b>Definition:</b> HTML (Hypertext Markup Language) is the standard markup language for creating web pages. It defines the structure and content of a web page using a variety of tags and elements.</p>
+    <ul>
+        <li><b>Characteristics:</b>
+            <ul>
+                <li>HTML documents are comprised of a nested hierarchy of elements.</li>
+                <li>HTML tags are used to define the structure and semantics of a document.</li>
+                <li>HTML elements consist of a start tag, content, and an end tag, encapsulating the content to define its purpose.</li>
+            </ul>
+        </li>
+        <li><b>Usage:</b> HTML is used to create web pages that are rendered by web browsers. It allows developers to structure content, define headings, paragraphs, lists, links, images, tables, forms, and more.</li>
+    </ul>
+</div>
+        <hr>
+        <hr>
+                <div id="item-2">
+    <h2>HTML Basic Structure</h2>
+    <p><b>Definition:</b> The basic structure of an HTML document consists of several elements that define its overall layout and content. This structure provides a framework for organizing and presenting information on a web page.</p>
+    <ul>
+        <li><b>Document Type Declaration (DOCTYPE):</b> The DOCTYPE declaration specifies the version of HTML or XHTML used in the document. It is placed at the beginning of the document and helps browsers render the page correctly.</li>
+        <li><b>HTML Element:</b> The <code>&lt;html&gt;</code> element is the root element of an HTML document and contains all other elements.</li>
+        <li><b>Head Section:</b> The <code>&lt;head&gt;</code> section contains metadata about the document, such as the title, character set, and links to external resources like stylesheets and scripts.</li>
+        <li><b>Body Section:</b> The <code>&lt;body&gt;</code> section contains the main content of the document, including text, images, links, forms, and other elements visible to users.</li>
+    </ul>
+    <p><b>Demo Code:</b></p>
+    <pre>
+        <code>
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang="en"&gt;
+            &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                &lt;title&gt;My HTML Document&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+                &lt;header&gt;
+                    &lt;h1&gt;Welcome to My Website&lt;/h1&gt;
+                &lt;/header&gt;
+                &lt;nav&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;&lt;a href="#home"&gt;Home&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="#about"&gt;About&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="#contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/nav&gt;
+                &lt;section id="home"&gt;
+                    &lt;h2&gt;Home Section&lt;/h2&gt;
+                    &lt;p&gt;Welcome to my website! This is the home section.&lt;/p&gt;
+                &lt;/section&gt;
+                &lt;section id="about"&gt;
+                    &lt;h2&gt;About Section&lt;/h2&gt;
+                    &lt;p&gt;Learn more about us and our mission.&lt;/p&gt;
+                &lt;/section&gt;
+                &lt;section id="contact"&gt;
+                    &lt;h2&gt;Contact Section&lt;/h2&gt;
+                    &lt;p&gt;Contact us for inquiries and support.&lt;/p&gt;
+                &lt;/section&gt;
+                &lt;footer&gt;
+                    &lt;p&gt;Copyright &copy; 2024 My Website. All rights reserved.&lt;/p&gt;
+                &lt;/footer&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
+        </code>
+    </pre>
+</div>
+        <hr>
+        <hr>
+<div id="item-3">
+    <h2>HTML Elements</h2>
+    <p><b>Definition:</b> HTML elements are the building blocks of web pages. Each element represents a specific type of content or functionality and is defined by tags enclosed in angle brackets.</p>
+    <ul>
+        <li><b>Common Elements:</b>
+            <ul>
+                <li><b>&lt;h1&gt; - &lt;h6&gt;:</b> Headings of different levels, with <code>&lt;h1&gt;</code> being the highest level. Example: <code>&lt;h1&gt;Main Heading&lt;/h1&gt;</code></li>
+                <li><b>&lt;p&gt;:</b> Paragraphs of text. Example: <code>&lt;p&gt;This is a paragraph of text.&lt;/p&gt;</code></li>
+                <li><b>&lt;a&gt;:</b> Links to other web pages or resources. Example: <code>&lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;</code></li>
+                <li><b>&lt;img&gt;:</b> Images embedded within the document. Example: <code>&lt;img src="image.jpg" alt="Image"&gt;</code></li>
+                <li><b>&lt;ul&gt;:</b> Unordered lists. Example:
+                    <pre>
+                        <code>
+                            &lt;ul&gt;
+                                &lt;li&gt;Item 1&lt;/li&gt;
+                                &lt;li&gt;Item 2&lt;/li&gt;
+                                &lt;li&gt;Item 3&lt;/li&gt;
+                            &lt;/ul&gt;
+                        </code>
+                    </pre>
+                </li>
+                <li><b>&lt;ol&gt;:</b> Ordered lists. Example:
+                    <pre>
+                        <code>
+                            &lt;ol&gt;
+                                &lt;li&gt;First Item&lt;/li&gt;
+                                &lt;li&gt;Second Item&lt;/li&gt;
+                                &lt;li&gt;Third Item&lt;/li&gt;
+                            &lt;/ol&gt;
+                        </code>
+                    </pre>
+                </li>
+                <li><b>&lt;li&gt;:</b> List items within <code>&lt;ul&gt;</code> or <code>&lt;ol&gt;</code>. Example:
+                    <pre>
+                        <code>
+                            &lt;ul&gt;
+                                &lt;li&gt;Item 1&lt;/li&gt;
+                                &lt;li&gt;Item 2&lt;/li&gt;
+                            &lt;/ul&gt;
+                        </code>
+                    </pre>
+                </li>
+                <li><b>&lt;div&gt;:</b> Division or section of the document, used for layout and styling purposes. Example: <code>&lt;div id="content"&gt;Content Goes Here&lt;/div&gt;</code></li>
+                <li><b>&lt;span&gt;:</b> Inline container for text or other inline elements, used for styling purposes. Example: <code>&lt;span style="color: red;"&gt;Red Text&lt;/span&gt;</code></li>
+            </ul>
+        </li>
+        <li><b>Attributes:</b> HTML elements can have attributes that provide additional information about the element or modify its behavior. Common attributes include <code>id</code>, <code>class</code>, <code>href</code>, <code>src</code>, <code>alt</code>, <code>style</code>, etc.</li>
+    </ul>
+</div>
+
+<hr>
+        <hr>
+<div id="item-4">
+    <h2>HTML Forms</h2>
+    <p><b>Definition:</b> HTML forms are used to collect user input and submit it to a web server for processing. They consist of input fields, buttons, and other elements for gathering data from users.</p>
+    <ul>
+        <li><b>Common Form Elements:</b>
+            <ul>
+                <li><b>&lt;form&gt;:</b> Defines a form for user input.</li>
+                <li><b>&lt;input&gt;:</b> Represents an input field, such as text input, checkbox, radio button, etc.</li>
+                <li><b>&lt;textarea&gt;:</b> Defines a multi-line text input control.</li>
+                <li><b>&lt;select&gt;:</b> Creates a drop-down list or combo box.</li>
+                <li><b>&lt;button&gt;:</b> Defines a clickable button.</li>
+            </ul>
+        </li>
+        <li><b>Form Attributes:</b> HTML form elements can have various attributes such as <code>action</code>, <code>method</code>, <code>name</code>, <code>placeholder</code>, <code>value</code>, etc.</li>
+    </ul>
+</div>
+<hr>
+        <hr>
+<div id="item-5">
+    <h2>HTML Tables</h2>
+    <p><b>Definition:</b> HTML tables are used to display data in a tabular format with rows and columns. They consist of <code>&lt;table&gt;</code> element containing one or more <code>&lt;tr&gt;</code> (table row) elements, which in turn contain <code>&lt;td&gt;</code> (table data) or <code>&lt;th&gt;</code> (table header) elements.</p>
+    <ul>
+        <li><b>Common Table Elements:</b>
+            <ul>
+                <li><b>&lt;table&gt;:</b> Defines a table.</li>
+                <li><b>&lt;tr&gt;:</b> Defines a row in a table.</li>
+                <li><b>&lt;td&gt;:</b> Defines a cell in a table.</li>
+                <li><b>&lt;th&gt;:</b> Defines a header cell in a table.</li>
+            </ul>
+        </li>
+        <li><b>Table Attributes:</b> HTML table elements can have attributes such as <code>border</code>, <code>cellpadding</code>, <code>cellspacing</code>, <code>width</code>, <code>height</code>, etc.</li>
+    </ul>
+    <p><b>Example:</b></p>
+    <pre>
+        <code>
+            &lt;table border="1" cellpadding="5" cellspacing="0"&gt;
+                &lt;tr&gt;
+                    &lt;th&gt;Name&lt;/th&gt;
+                    &lt;th&gt;Age&lt;/th&gt;
+                    &lt;th&gt;Gender&lt;/th&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;John&lt;/td&gt;
+                    &lt;td&gt;25&lt;/td&gt;
+                    &lt;td&gt;Male&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;Emily&lt;/td&gt;
+                    &lt;td&gt;30&lt;/td&gt;
+                    &lt;td&gt;Female&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+        </code>
+    </pre>
+</div>
+
+<hr>
+        <hr>
+<div id="item-6">
+    <h2>HTML Metadata</h2>
+    <p><b>Definition:</b> HTML metadata elements provide information about the document, such as its title, character set, author, and viewport settings. They are typically placed within the <code>&lt;head&gt;</code> section of an HTML document.</p>
+    <ul>
+        <li><b>Common Metadata Elements:</b>
+            <ul>
+                <li><b>&lt;title&gt;:</b> Defines the title of the document, displayed in the browser's title bar or tab.</li>
+                <li><b>&lt;meta&gt;:</b> Provides metadata about the HTML document, such as character set, viewport settings, author, description, etc.</li>
+                <li><b>&lt;link&gt;:</b> Defines a relationship between the current document and an external resource, such as a stylesheet or icon.</li>
+                <li><b>&lt;base&gt;:</b> Specifies the base URL and target for all relative URLs within the document.</li>
+            </ul>
+        </li>
+        <li><b>Viewport Meta Tag:</b> The <code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code> tag is commonly used to control the layout and scaling of web pages on mobile devices.</li>
+    </ul>
+</div>
+
+        <hr>
+        <hr>
+        <div id="item-7">
+    <h2>HTML Links</h2>
+    <p><b>Definition:</b> HTML links are used to navigate between web pages or resources. They are created using the <code>&lt;a&gt;</code> (anchor) element, which defines a hyperlink to another location specified by the <code>href</code> attribute.</p>
+    <ul>
+        <li><b>Anchor Element:</b> The <code>&lt;a&gt;</code> element is used to create hyperlinks. It has the following attributes:
+            <ul>
+                <li><b>href:</b> Specifies the URL of the page or resource to link to.</li>
+                <li><b>target:</b> Specifies where to open the linked document. Common values include <code>_blank</code> (opens in a new window), <code>_self</code> (opens in the same frame), etc.</li>
+                <li><b>title:</b> Provides additional information about the link, displayed as a tooltip when the user hovers over it.</li>
+            </ul>
+        </li>
+        <li><b>Linking to CSS:</b> To link an external CSS stylesheet to an HTML document, use the <code>&lt;link&gt;</code> element within the <code>&lt;head&gt;</code> section. Example: <code>&lt;link rel="stylesheet" type="text/css" href="styles.css"&gt;</code></li>
+        <li><b>Linking to JavaScript:</b> To link an external JavaScript file to an HTML document, use the <code>&lt;script&gt;</code> element with the <code>src</code> attribute. Example: <code>&lt;script src="script.js"&gt;&lt;/script&gt;</code></li>
+    </ul>
+</div>
+        <hr>
+        <hr>
+<div id="item-8">
+    <h2>HTML Semantic Elements</h2>
+    <p><b>Definition:</b> HTML5 introduced semantic elements that provide a more meaningful structure to web documents. These elements convey the purpose or meaning of the content, making it easier for search engines and assistive technologies to understand.</p>
+    <ul>
+        <li><b>Common Semantic Elements:</b>
+            <ul>
+                <li><b>&lt;header&gt;:</b> Defines a header for a document or section.</li>
+                <li><b>&lt;nav&gt;:</b> Defines navigation links within a document.</li>
+                <li><b>&lt;main&gt;:</b> Defines the main content area of a document.</li>
+                <li><b>&lt;section&gt;:</b> Defines a section of content within a document.</li>
+                <li><b>&lt;article&gt;:</b> Defines an independent piece of content, such as a blog post or article.</li>
+                <li><b>&lt;aside&gt;:</b> Defines content aside from the main content, such as sidebars or related links.</li>
+                <li><b>&lt;footer&gt;:</b> Defines a footer for a document or section.</li>
+            </ul>
+        </li>
+        <li><b>Benefits:</b> Semantic elements improve accessibility, search engine optimization (SEO), and maintainability of web pages by providing clearer structure and meaning to the content.</li>
+    </ul>
+</div>
+        <hr>
+        <hr>
+<div id="item-9">
+    <h2>HTML vs. HTML5</h2>
+    <p><b>Differences:</b> HTML5 introduced several new features and improvements over previous versions of HTML, including:</p>
+    <ul>
+        <li><b>Semantic Elements:</b> HTML5 introduced semantic elements such as <code>&lt;header&gt;</code>, <code>&lt;footer&gt;</code>, <code>&lt;nav&gt;</code>, and <code>&lt;article&gt;</code> to provide better structure and meaning to web documents.</li>
+        <li><b>Improved Support for Multimedia:</b> HTML5 includes native support for audio and video elements, allowing developers to embed media content directly into web pages without relying on third-party plugins like Flash.</li>
+        <li><b>Form Enhancements:</b> HTML5 introduced new input types, attributes, and validation features for creating more interactive and user-friendly web forms. Examples include <code>email</code>, <code>url</code>, <code>number</code>, <code>date</code>, and <code>required</code>.</li>
+        <li><b>Canvas and SVG:</b> HTML5 introduced the <code>&lt;canvas&gt;</code> element for drawing graphics and animations dynamically using JavaScript, as well as the <code>&lt;svg&gt;</code> element for scalable vector graphics.</li>
+        <li><b>Local Storage:</b> HTML5 introduced the <code>localStorage</code> and <code>sessionStorage</code> APIs for storing data locally in the user's browser, enabling web applications to cache data and improve performance.</li>
+        <li><b>Geolocation:</b> HTML5 introduced the <code>Geolocation</code> API for accessing the user's geographical location through the browser, enabling location-aware web applications and services.</li>
+    </ul>
+    <p><b>Compatibility:</b> HTML5 is backward compatible with older versions of HTML, meaning that existing HTML documents should still render correctly in modern browsers. However, to take advantage of HTML5 features, developers need to use the appropriate syntax and elements supported by HTML5-compliant browsers.</p>
+</div>
+        <hr>
+        <hr>
+<div id="item-10">
+    {% if data.new_data %}
+    <p>{{ data.new_data|safe }}</p>
+    <a href="{{ url_for('edit_content', category=data.category) }}">Edit this</a>
+{% else %}
+    <p>This time no new topic is available</p>
+{% endif %}
+</div>
+        <hr>
+        <hr>
+
+  </div>
+</div>
+</div>
+{% include 'footer.html' %}

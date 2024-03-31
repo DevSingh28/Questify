@@ -1,0 +1,6024 @@
+1
+00:00:00,160 --> 00:00:02,240
+all right what's going on everybody it's
+
+2
+00:00:02,240 --> 00:00:04,000
+you bro hope you're doing well and in
+
+3
+00:00:04,000 --> 00:00:05,279
+this video i'm going to help you get
+
+4
+00:00:05,279 --> 00:00:08,559
+started with html so sit back relax and
+
+5
+00:00:08,559 --> 00:00:11,280
+enjoy the show
+
+6
+00:00:11,360 --> 00:00:13,840
+if you wouldn't mind please like comment
+
+7
+00:00:13,840 --> 00:00:16,560
+and subscribe one like equals one prayer
+
+8
+00:00:16,560 --> 00:00:18,800
+for the youtube algorithm
+
+9
+00:00:18,800 --> 00:00:20,880
+i'm gonna tell you why you should learn
+
+10
+00:00:20,880 --> 00:00:24,560
+html html is an acronym for hypertext
+
+11
+00:00:24,560 --> 00:00:27,199
+markup language it's the most basic
+
+12
+00:00:27,199 --> 00:00:29,279
+building block of the web it allows you
+
+13
+00:00:29,279 --> 00:00:32,238
+to add change and remove website content
+
+14
+00:00:32,238 --> 00:00:33,760
+and that's a good thing to know it's
+
+15
+00:00:33,760 --> 00:00:35,920
+mandatory to know for web developers if
+
+16
+00:00:35,920 --> 00:00:37,680
+you would like to enter that career
+
+17
+00:00:37,680 --> 00:00:39,440
+field it's useful for software
+
+18
+00:00:39,440 --> 00:00:41,040
+developers marketing and sales
+
+19
+00:00:41,040 --> 00:00:42,960
+professionals if you need to edit a
+
+20
+00:00:42,960 --> 00:00:45,120
+listing for your company business owners
+
+21
+00:00:45,120 --> 00:00:46,719
+you could make your own website and
+
+22
+00:00:46,719 --> 00:00:48,960
+freelancers people would pay good money
+
+23
+00:00:48,960 --> 00:00:50,640
+for a good website heck you might as
+
+24
+00:00:50,640 --> 00:00:52,879
+well add html to your resume can't hurt
+
+25
+00:00:52,879 --> 00:00:56,239
+and learning html is super easy this
+
+26
+00:00:56,239 --> 00:00:58,079
+full course is only going to be about an
+
+27
+00:00:58,079 --> 00:01:01,600
+hour anybody can learn html even you yes
+
+28
+00:01:01,600 --> 00:01:04,239
+whoever's watching this video learn html
+
+29
+00:01:04,239 --> 00:01:06,479
+it's super easy what do you have to lose
+
+30
+00:01:06,479 --> 00:01:08,159
+building a website is a lot like
+
+31
+00:01:08,159 --> 00:01:10,400
+building a house first we need a solid
+
+32
+00:01:10,400 --> 00:01:12,240
+foundation and we need to build a
+
+33
+00:01:12,240 --> 00:01:14,320
+skeletal structure that's where html
+
+34
+00:01:14,320 --> 00:01:16,479
+comes in it's the most basic building
+
+35
+00:01:16,479 --> 00:01:18,479
+block of the web then after that we can
+
+36
+00:01:18,479 --> 00:01:22,159
+add css css is cascading style sheets
+
+37
+00:01:22,159 --> 00:01:24,960
+with css we can style color and change
+
+38
+00:01:24,960 --> 00:01:27,040
+the appearance of a webpage and lastly
+
+39
+00:01:27,040 --> 00:01:29,119
+there's javascript javascript adds
+
+40
+00:01:29,119 --> 00:01:31,680
+functionality to a webpage so in a house
+
+41
+00:01:31,680 --> 00:01:34,000
+this could be like plumbing heating and
+
+42
+00:01:34,000 --> 00:01:36,320
+air conditioning and electricity so it
+
+43
+00:01:36,320 --> 00:01:38,320
+adds functionality and when you combine
+
+44
+00:01:38,320 --> 00:01:40,400
+these three levels you have a good
+
+45
+00:01:40,400 --> 00:01:42,000
+functioning webpage but you need to
+
+46
+00:01:42,000 --> 00:01:43,520
+start somewhere so that's why you're
+
+47
+00:01:43,520 --> 00:01:45,600
+gonna learn html first what will you
+
+48
+00:01:45,600 --> 00:01:47,759
+need you'll need a web browser use
+
+49
+00:01:47,759 --> 00:01:49,920
+whatever web browser that you like just
+
+50
+00:01:49,920 --> 00:01:52,159
+please do not use internet explorer and
+
+51
+00:01:52,159 --> 00:01:54,799
+we'll also need a text editor to write
+
+52
+00:01:54,799 --> 00:01:58,000
+html code you can use vs code sublime
+
+53
+00:01:58,000 --> 00:02:00,479
+text heck you can even use notepad but i
+
+54
+00:02:00,479 --> 00:02:02,640
+prefer vs code so i'll show you where to
+
+55
+00:02:02,640 --> 00:02:05,880
+download that head to
+
+56
+00:02:05,880 --> 00:02:08,000
+code.visualstudio.com and download the
+
+57
+00:02:08,000 --> 00:02:09,758
+correct version for your operating
+
+58
+00:02:09,758 --> 00:02:11,760
+system i'm running windows so i'm going
+
+59
+00:02:11,760 --> 00:02:13,920
+to install the windows version then i
+
+60
+00:02:13,920 --> 00:02:15,599
+will open when done
+
+61
+00:02:15,599 --> 00:02:17,760
+accept the agreement
+
+62
+00:02:17,760 --> 00:02:19,840
+yes i actually did read it that fast i
+
+63
+00:02:19,840 --> 00:02:22,239
+would recommend creating a desktop icon
+
+64
+00:02:22,239 --> 00:02:24,959
+and make sure add to path is selected
+
+65
+00:02:24,959 --> 00:02:27,680
+next and install and then you might as
+
+66
+00:02:27,680 --> 00:02:30,319
+well launch this bad boy so finish we
+
+67
+00:02:30,319 --> 00:02:32,640
+are now within vs code the first thing i
+
+68
+00:02:32,640 --> 00:02:35,200
+recommend is to download the live server
+
+69
+00:02:35,200 --> 00:02:37,680
+extension so that after saving an html
+
+70
+00:02:37,680 --> 00:02:40,080
+document we can immediately refresh a
+
+71
+00:02:40,080 --> 00:02:42,800
+web page so underneath the search box
+
+72
+00:02:42,800 --> 00:02:45,840
+for extensions we are looking for live
+
+73
+00:02:45,840 --> 00:02:48,480
+server and install this version then
+
+74
+00:02:48,480 --> 00:02:50,239
+after downloading the live server
+
+75
+00:02:50,239 --> 00:02:52,720
+extension we will create a new folder
+
+76
+00:02:52,720 --> 00:02:55,519
+under the explorer tab open folder
+
+77
+00:02:55,519 --> 00:02:57,599
+wherever you want create a new folder
+
+78
+00:02:57,599 --> 00:02:59,200
+i'll create this on my desktop just for
+
+79
+00:02:59,200 --> 00:03:02,000
+convenience i'm going to create a new
+
+80
+00:03:02,000 --> 00:03:04,640
+folder i'll name this website
+
+81
+00:03:04,640 --> 00:03:06,720
+or whatever you want doesn't matter
+
+82
+00:03:06,720 --> 00:03:09,040
+then select folder and within our
+
+83
+00:03:09,040 --> 00:03:10,959
+website folder we're going to create a
+
+84
+00:03:10,959 --> 00:03:15,519
+new file name this index.html
+
+85
+00:03:15,519 --> 00:03:17,519
+whatever file you would like to be the
+
+86
+00:03:17,519 --> 00:03:19,440
+home page of your website you'll want to
+
+87
+00:03:19,440 --> 00:03:20,920
+name that as
+
+88
+00:03:20,920 --> 00:03:23,360
+index.html when a connection is made to
+
+89
+00:03:23,360 --> 00:03:26,000
+a website without a specific file in the
+
+90
+00:03:26,000 --> 00:03:29,440
+url most servers by default will return
+
+91
+00:03:29,440 --> 00:03:30,200
+the
+
+92
+00:03:30,200 --> 00:03:33,200
+index.html file as a landing page so
+
+93
+00:03:33,200 --> 00:03:36,000
+this index.html file will be the home
+
+94
+00:03:36,000 --> 00:03:38,640
+page the landing page of our website at
+
+95
+00:03:38,640 --> 00:03:40,239
+the top of our document we're going to
+
+96
+00:03:40,239 --> 00:03:42,480
+type this within angle brackets
+
+97
+00:03:42,480 --> 00:03:46,400
+exclamation point doc type html
+
+98
+00:03:46,400 --> 00:03:48,799
+html documents should start with this
+
+99
+00:03:48,799 --> 00:03:51,440
+declaration to be compliant with basic
+
+100
+00:03:51,440 --> 00:03:54,080
+html standards it lets a visitor's web
+
+101
+00:03:54,080 --> 00:03:57,040
+browser know that this is an html5
+
+102
+00:03:57,040 --> 00:03:59,120
+document and following this text will
+
+103
+00:03:59,120 --> 00:04:02,480
+create a pair of html tags tags are the
+
+104
+00:04:02,480 --> 00:04:04,560
+keywords within angle brackets that a
+
+105
+00:04:04,560 --> 00:04:06,879
+web page uses to define how your web
+
+106
+00:04:06,879 --> 00:04:09,200
+browser will format and display content
+
+107
+00:04:09,200 --> 00:04:11,280
+and usually these come in pairs so we'll
+
+108
+00:04:11,280 --> 00:04:14,480
+need an opening html tag and a closing
+
+109
+00:04:14,480 --> 00:04:17,279
+html tag all of our html code will be
+
+110
+00:04:17,279 --> 00:04:20,880
+within these html tags so the html
+
+111
+00:04:20,880 --> 00:04:23,440
+element represents the root of an html
+
+112
+00:04:23,440 --> 00:04:25,919
+document and there's two major sections
+
+113
+00:04:25,919 --> 00:04:28,800
+head and body so let's create a pair of
+
+114
+00:04:28,800 --> 00:04:31,600
+head tags head represents information
+
+115
+00:04:31,600 --> 00:04:34,320
+about a web page and there is also body
+
+116
+00:04:34,320 --> 00:04:37,280
+as well so create a pair of body tags
+
+117
+00:04:37,280 --> 00:04:39,040
+the body is what you would like to
+
+118
+00:04:39,040 --> 00:04:41,120
+display to a user the head is
+
+119
+00:04:41,120 --> 00:04:43,360
+information about the web page one thing
+
+120
+00:04:43,360 --> 00:04:44,880
+that we can add to the head of our
+
+121
+00:04:44,880 --> 00:04:48,000
+document is a title so we'll need a pair
+
+122
+00:04:48,000 --> 00:04:51,040
+of title tags
+
+123
+00:04:51,360 --> 00:04:54,400
+and let's create a title for our website
+
+124
+00:04:54,400 --> 00:04:55,360
+my
+
+125
+00:04:55,360 --> 00:04:58,160
+first website and then let's save let's
+
+126
+00:04:58,160 --> 00:05:00,080
+open this document so i'm going to right
+
+127
+00:05:00,080 --> 00:05:02,800
+click open with live server so the title
+
+128
+00:05:02,800 --> 00:05:05,680
+of this web page is my first website and
+
+129
+00:05:05,680 --> 00:05:07,440
+you may have noticed that this web
+
+130
+00:05:07,440 --> 00:05:10,240
+browser was opened with edge so you can
+
+131
+00:05:10,240 --> 00:05:12,160
+actually change that to a different web
+
+132
+00:05:12,160 --> 00:05:15,039
+browser and here's how go to file
+
+133
+00:05:15,039 --> 00:05:16,400
+preferences
+
+134
+00:05:16,400 --> 00:05:17,680
+settings
+
+135
+00:05:17,680 --> 00:05:20,479
+underneath extensions head to
+
+136
+00:05:20,479 --> 00:05:22,320
+live server config
+
+137
+00:05:22,320 --> 00:05:25,199
+custom browser and select a web browser
+
+138
+00:05:25,199 --> 00:05:27,520
+of your choosing so right click open
+
+139
+00:05:27,520 --> 00:05:30,000
+with live server and we are now using a
+
+140
+00:05:30,000 --> 00:05:31,759
+different web browser so i'm just going
+
+141
+00:05:31,759 --> 00:05:34,560
+to put my web browser and vs code side
+
+142
+00:05:34,560 --> 00:05:36,880
+by side
+
+143
+00:05:36,880 --> 00:05:39,280
+now let's add some text to the body of
+
+144
+00:05:39,280 --> 00:05:41,840
+our webpage type whatever you want i
+
+145
+00:05:41,840 --> 00:05:43,840
+like pizza
+
+146
+00:05:43,840 --> 00:05:45,919
+then i'm going to save
+
+147
+00:05:45,919 --> 00:05:48,400
+there we go we added some text to the
+
+148
+00:05:48,400 --> 00:05:50,800
+body of our html document and we can
+
+149
+00:05:50,800 --> 00:05:53,520
+also use a pair of header tags so
+
+150
+00:05:53,520 --> 00:05:57,199
+surround some text with h1 this is the
+
+151
+00:05:57,199 --> 00:05:59,600
+largest header tag and then make sure to
+
+152
+00:05:59,600 --> 00:06:01,680
+close it afterwards okay so then we have
+
+153
+00:06:01,680 --> 00:06:04,479
+h2 which is smaller
+
+154
+00:06:04,479 --> 00:06:07,600
+we have h3
+
+155
+00:06:07,600 --> 00:06:10,160
+h4
+
+156
+00:06:10,479 --> 00:06:13,120
+h5
+
+157
+00:06:13,440 --> 00:06:16,880
+and the last one is h6
+
+158
+00:06:16,880 --> 00:06:18,560
+so if you need some sort of title for
+
+159
+00:06:18,560 --> 00:06:20,319
+your web page you can always play some
+
+160
+00:06:20,319 --> 00:06:23,919
+text within a pair of h1 header tags
+
+161
+00:06:23,919 --> 00:06:26,000
+before i discuss p tags we should
+
+162
+00:06:26,000 --> 00:06:28,319
+discuss what elements are elements
+
+163
+00:06:28,319 --> 00:06:30,960
+embody the opening tag any content
+
+164
+00:06:30,960 --> 00:06:33,360
+within and the closing tag so for
+
+165
+00:06:33,360 --> 00:06:36,560
+example this is a opening title tag and
+
+166
+00:06:36,560 --> 00:06:39,039
+a closing title tag and all of these
+
+167
+00:06:39,039 --> 00:06:41,280
+together including any content within is
+
+168
+00:06:41,280 --> 00:06:44,319
+known as the title element so that's the
+
+169
+00:06:44,319 --> 00:06:46,880
+difference between tags and elements
+
+170
+00:06:46,880 --> 00:06:49,919
+tags make up a portion of elements and
+
+171
+00:06:49,919 --> 00:06:51,599
+with that out of the way we can move on
+
+172
+00:06:51,599 --> 00:06:54,080
+to paragraph elements paragraph elements
+
+173
+00:06:54,080 --> 00:06:56,160
+are made up of p tags we need an opening
+
+174
+00:06:56,160 --> 00:06:58,960
+p tag and a closing piece egg and we can
+
+175
+00:06:58,960 --> 00:07:01,280
+type some text within these paragraph
+
+176
+00:07:01,280 --> 00:07:02,400
+tags
+
+177
+00:07:02,400 --> 00:07:06,319
+this is some sample text browsers
+
+178
+00:07:06,319 --> 00:07:09,039
+automatically add a blank line of before
+
+179
+00:07:09,039 --> 00:07:11,840
+and after any paragraph elements also if
+
+180
+00:07:11,840 --> 00:07:14,160
+you need some longer sample text there
+
+181
+00:07:14,160 --> 00:07:17,360
+is a shortcut type lorem then tab
+
+182
+00:07:17,360 --> 00:07:19,120
+and that will create some sample text
+
+183
+00:07:19,120 --> 00:07:21,199
+for you and let's create another
+
+184
+00:07:21,199 --> 00:07:23,520
+paragraph element so we need an opening
+
+185
+00:07:23,520 --> 00:07:26,319
+p tag and a closing p tag i would like
+
+186
+00:07:26,319 --> 00:07:28,720
+some more sample text i will type lorem
+
+187
+00:07:28,720 --> 00:07:31,599
+then tab and we now have two paragraph
+
+188
+00:07:31,599 --> 00:07:33,840
+elements if you need a paragraph of
+
+189
+00:07:33,840 --> 00:07:36,319
+information to display with blank lines
+
+190
+00:07:36,319 --> 00:07:38,240
+before and after you can always surround
+
+191
+00:07:38,240 --> 00:07:41,039
+some text within a pair of p tags now
+
+192
+00:07:41,039 --> 00:07:44,560
+there's also a br element and these do
+
+193
+00:07:44,560 --> 00:07:46,479
+not need closing tags it's only an
+
+194
+00:07:46,479 --> 00:07:48,319
+opening tag wherever you would like to
+
+195
+00:07:48,319 --> 00:07:52,000
+add a line break just add a br element
+
+196
+00:07:52,000 --> 00:07:53,919
+so let's say i would like to space out
+
+197
+00:07:53,919 --> 00:07:56,479
+these header tags well i can add a line
+
+198
+00:07:56,479 --> 00:07:58,800
+break between each of these
+
+199
+00:07:58,800 --> 00:08:01,280
+if you ever need a line break just use a
+
+200
+00:08:01,280 --> 00:08:03,840
+vr element and like i said there's no
+
+201
+00:08:03,840 --> 00:08:06,080
+closing tag with these elements there's
+
+202
+00:08:06,080 --> 00:08:09,280
+also an hr element and i do not mean
+
+203
+00:08:09,280 --> 00:08:12,479
+human resources i mean horizontal rule
+
+204
+00:08:12,479 --> 00:08:14,479
+if you ever need to divide your page
+
+205
+00:08:14,479 --> 00:08:16,479
+section by section you can always add a
+
+206
+00:08:16,479 --> 00:08:18,800
+horizontal rule let's say that we have a
+
+207
+00:08:18,800 --> 00:08:20,960
+title to this webpage i'll create an h1
+
+208
+00:08:20,960 --> 00:08:25,199
+header tag this is my website
+
+209
+00:08:25,199 --> 00:08:26,879
+and then i'm just going to close this
+
+210
+00:08:26,879 --> 00:08:28,319
+what if i would like to divide this
+
+211
+00:08:28,319 --> 00:08:30,960
+webpage section by section i can always
+
+212
+00:08:30,960 --> 00:08:33,679
+add a horizontal rule by using an hr
+
+213
+00:08:33,679 --> 00:08:36,080
+element and there is no closing tag with
+
+214
+00:08:36,080 --> 00:08:38,000
+this element you just type hr with an
+
+215
+00:08:38,000 --> 00:08:40,719
+angle brackets and this will divide a
+
+216
+00:08:40,719 --> 00:08:42,479
+section of your webpage and add a
+
+217
+00:08:42,479 --> 00:08:44,880
+horizontal rule which looks pretty nice
+
+218
+00:08:44,880 --> 00:08:47,920
+so that is the hr element and the last
+
+219
+00:08:47,920 --> 00:08:49,279
+thing we're going to discuss for this
+
+220
+00:08:49,279 --> 00:08:51,680
+topic is comments comments will not be
+
+221
+00:08:51,680 --> 00:08:53,360
+displayed within the body of your
+
+222
+00:08:53,360 --> 00:08:56,000
+document it's more or less a note for
+
+223
+00:08:56,000 --> 00:08:58,320
+yourself or other developers to create a
+
+224
+00:08:58,320 --> 00:09:00,399
+comment we need an angle bracket
+
+225
+00:09:00,399 --> 00:09:02,640
+exclamation point then two dashes and
+
+226
+00:09:02,640 --> 00:09:04,240
+this will create the ending of your
+
+227
+00:09:04,240 --> 00:09:06,000
+comment which is an arrow pointing to
+
+228
+00:09:06,000 --> 00:09:08,640
+the right so anything between these two
+
+229
+00:09:08,640 --> 00:09:11,040
+arrows will be a comment i'll leave a
+
+230
+00:09:11,040 --> 00:09:13,839
+comment for i don't know myself
+
+231
+00:09:13,839 --> 00:09:18,240
+this is the best website ever
+
+232
+00:09:18,240 --> 00:09:20,160
+so as you can see this will not be
+
+233
+00:09:20,160 --> 00:09:22,080
+displayed within my webpage it's
+
+234
+00:09:22,080 --> 00:09:25,120
+basically used as a note for yourself or
+
+235
+00:09:25,120 --> 00:09:27,440
+for other people looking over this html
+
+236
+00:09:27,440 --> 00:09:30,000
+document so yeah those are comments well
+
+237
+00:09:30,000 --> 00:09:33,120
+everybody that is the basics of html so
+
+238
+00:09:33,120 --> 00:09:34,800
+yeah if you liked this video please give
+
+239
+00:09:34,800 --> 00:09:36,480
+this video a thumbs up leave a random
+
+240
+00:09:36,480 --> 00:09:38,320
+comment down below and subscribe if
+
+241
+00:09:38,320 --> 00:09:40,399
+you'd like to become a fellow bro
+
+242
+00:09:40,399 --> 00:09:42,480
+hey what's going on everybody it's you
+
+243
+00:09:42,480 --> 00:09:44,160
+bro hope you're doing well and in this
+
+244
+00:09:44,160 --> 00:09:45,440
+video i'm going to show you how we can
+
+245
+00:09:45,440 --> 00:09:48,160
+have some fun with hyperlinks and html
+
+246
+00:09:48,160 --> 00:09:52,959
+so sit back relax and enjoy the show
+
+247
+00:09:53,440 --> 00:09:55,040
+if you find this video helpful please
+
+248
+00:09:55,040 --> 00:09:58,080
+remember to like comment and subscribe
+
+249
+00:09:58,080 --> 00:10:00,000
+your support will help keep this channel
+
+250
+00:10:00,000 --> 00:10:01,200
+running
+
+251
+00:10:01,200 --> 00:10:04,399
+sup people so hyperlinks we can apply a
+
+252
+00:10:04,399 --> 00:10:07,760
+hyperlink to text buttons images
+
+253
+00:10:07,760 --> 00:10:09,760
+elements of that nature whatever you
+
+254
+00:10:09,760 --> 00:10:11,600
+would like to turn into a hyperlink
+
+255
+00:10:11,600 --> 00:10:14,160
+surround with a pair of a tags
+
+256
+00:10:14,160 --> 00:10:16,480
+there's an opening a tag and a closing a
+
+257
+00:10:16,480 --> 00:10:19,040
+tag and within the opening a tag there
+
+258
+00:10:19,040 --> 00:10:21,760
+is an href attribute that you can set to
+
+259
+00:10:21,760 --> 00:10:24,959
+a url of your choosing so if i want this
+
+260
+00:10:24,959 --> 00:10:26,880
+hyperlink to take me to google then i
+
+261
+00:10:26,880 --> 00:10:30,320
+will fill out the url for google
+
+262
+00:10:30,320 --> 00:10:33,360
+so after saving if i click on this link
+
+263
+00:10:33,360 --> 00:10:35,920
+it takes me to google easy enough right
+
+264
+00:10:35,920 --> 00:10:38,320
+now there is a target attribute you can
+
+265
+00:10:38,320 --> 00:10:40,959
+open a web page in a new tab or window
+
+266
+00:10:40,959 --> 00:10:44,800
+by setting this to underscore blank
+
+267
+00:10:44,800 --> 00:10:46,959
+so this should open in a new tab or
+
+268
+00:10:46,959 --> 00:10:47,920
+window
+
+269
+00:10:47,920 --> 00:10:50,720
+but the default is self
+
+270
+00:10:50,720 --> 00:10:52,399
+so that this will open in the same
+
+271
+00:10:52,399 --> 00:10:55,360
+window there is a title a title is a
+
+272
+00:10:55,360 --> 00:10:57,279
+small pop-up box that will appear when
+
+273
+00:10:57,279 --> 00:10:59,519
+you hover your cursor over this link we
+
+274
+00:10:59,519 --> 00:11:01,760
+could write a message like this
+
+275
+00:11:01,760 --> 00:11:04,720
+takes you to google
+
+276
+00:11:04,720 --> 00:11:06,640
+and that box should appear after you
+
+277
+00:11:06,640 --> 00:11:09,200
+hover your cursor over this hyperlink
+
+278
+00:11:09,200 --> 00:11:11,360
+this takes you to google let's say you
+
+279
+00:11:11,360 --> 00:11:12,959
+have another webpage and you would like
+
+280
+00:11:12,959 --> 00:11:14,959
+this link to take you to your second
+
+281
+00:11:14,959 --> 00:11:17,519
+page let's change the text
+
+282
+00:11:17,519 --> 00:11:20,720
+uh go to page two i'm going to create
+
+283
+00:11:20,720 --> 00:11:23,040
+another html file real quick i'll go to
+
+284
+00:11:23,040 --> 00:11:25,200
+new file let's call this page two dot
+
+285
+00:11:25,200 --> 00:11:26,880
+html
+
+286
+00:11:26,880 --> 00:11:28,880
+if you need to generate the necessary
+
+287
+00:11:28,880 --> 00:11:30,959
+body of an html document if you're using
+
+288
+00:11:30,959 --> 00:11:33,680
+vs code you can type exclamation point
+
+289
+00:11:33,680 --> 00:11:35,040
+and then tab
+
+290
+00:11:35,040 --> 00:11:37,279
+and let's write a message
+
+291
+00:11:37,279 --> 00:11:40,480
+this is page two
+
+292
+00:11:40,480 --> 00:11:43,040
+if i set the href attribute equal to the
+
+293
+00:11:43,040 --> 00:11:45,279
+relative file path of whatever page i
+
+294
+00:11:45,279 --> 00:11:47,600
+would like to go to then this hyperlink
+
+295
+00:11:47,600 --> 00:11:49,600
+will take me there so these files are
+
+296
+00:11:49,600 --> 00:11:51,120
+right next to each other i only have to
+
+297
+00:11:51,120 --> 00:11:53,200
+list the file name so i would like this
+
+298
+00:11:53,200 --> 00:11:56,880
+hyperlink to take me to page2.htm
+
+299
+00:11:56,880 --> 00:11:59,279
+so if i click on this hyperlink
+
+300
+00:11:59,279 --> 00:12:02,079
+it will take me to my other html file
+
+301
+00:12:02,079 --> 00:12:04,160
+this is useful if you have a navigation
+
+302
+00:12:04,160 --> 00:12:06,000
+bar so depending on the link that
+
+303
+00:12:06,000 --> 00:12:07,680
+somebody clicks on your navigation bar
+
+304
+00:12:07,680 --> 00:12:09,839
+that can take you to a different page
+
+305
+00:12:09,839 --> 00:12:11,440
+and lastly you can send an email to
+
+306
+00:12:11,440 --> 00:12:13,760
+somebody within the href attribute type
+
+307
+00:12:13,760 --> 00:12:17,200
+mail to colon then some email address
+
+308
+00:12:17,200 --> 00:12:20,800
+let's say fake123 gmail.com
+
+309
+00:12:20,800 --> 00:12:23,760
+let's say email me instead
+
+310
+00:12:23,760 --> 00:12:25,200
+and then when you click on this link it
+
+311
+00:12:25,200 --> 00:12:26,800
+will begin the process of sending an
+
+312
+00:12:26,800 --> 00:12:28,000
+email
+
+313
+00:12:28,000 --> 00:12:30,240
+but we won't actually complete it so
+
+314
+00:12:30,240 --> 00:12:32,079
+yeah everybody those are hyperlinks you
+
+315
+00:12:32,079 --> 00:12:34,639
+can apply hyperlinks to text buttons
+
+316
+00:12:34,639 --> 00:12:36,480
+images which we'll have some practice
+
+317
+00:12:36,480 --> 00:12:38,480
+with in the future so yeah those are
+
+318
+00:12:38,480 --> 00:12:42,240
+hyperlinks and html
+
+319
+00:12:43,040 --> 00:12:45,040
+all right people here's how to add an
+
+320
+00:12:45,040 --> 00:12:47,200
+image to a web page find or download an
+
+321
+00:12:47,200 --> 00:12:49,040
+image of your choosing i just so happen
+
+322
+00:12:49,040 --> 00:12:50,959
+to have a picture of shrek within your
+
+323
+00:12:50,959 --> 00:12:53,680
+folder containing your index.html file
+
+324
+00:12:53,680 --> 00:12:56,000
+you're going to move or paste that image
+
+325
+00:12:56,000 --> 00:12:57,839
+within the same folder and within the
+
+326
+00:12:57,839 --> 00:12:59,680
+body element we're going to create a new
+
+327
+00:12:59,680 --> 00:13:01,839
+element an image element within angle
+
+328
+00:13:01,839 --> 00:13:05,200
+brackets type img for image this is a
+
+329
+00:13:05,200 --> 00:13:07,920
+self-closing tag and many elements have
+
+330
+00:13:07,920 --> 00:13:09,839
+different attributes that we can change
+
+331
+00:13:09,839 --> 00:13:12,000
+we need to change the source attribute
+
+332
+00:13:12,000 --> 00:13:13,839
+of this image element the source
+
+333
+00:13:13,839 --> 00:13:17,279
+attribute is src and we will set this
+
+334
+00:13:17,279 --> 00:13:19,600
+equal to within double quotes the name
+
+335
+00:13:19,600 --> 00:13:22,720
+of our image mine is shrek.png and then
+
+336
+00:13:22,720 --> 00:13:23,600
+save
+
+337
+00:13:23,600 --> 00:13:25,360
+what i like to do if i'm working with
+
+338
+00:13:25,360 --> 00:13:27,600
+the webpage that has a lot of images i
+
+339
+00:13:27,600 --> 00:13:29,680
+like to create a separate folder for my
+
+340
+00:13:29,680 --> 00:13:32,240
+images this isn't necessary but if your
+
+341
+00:13:32,240 --> 00:13:34,160
+image is located within a separate
+
+342
+00:13:34,160 --> 00:13:36,320
+folder we need to find the file path
+
+343
+00:13:36,320 --> 00:13:39,199
+relative to your index.html file so i'm
+
+344
+00:13:39,199 --> 00:13:41,040
+going to create a new folder and let's
+
+345
+00:13:41,040 --> 00:13:43,199
+name this images it will contain all the
+
+346
+00:13:43,199 --> 00:13:45,519
+images from my webpage then i will move
+
+347
+00:13:45,519 --> 00:13:47,839
+my image to my images folder so we can
+
+348
+00:13:47,839 --> 00:13:49,839
+no longer locate this image we need to
+
+349
+00:13:49,839 --> 00:13:52,120
+find the file path relative to the
+
+350
+00:13:52,120 --> 00:13:55,199
+index.html file to look within my images
+
+351
+00:13:55,199 --> 00:13:57,519
+folder i will precede the image name
+
+352
+00:13:57,519 --> 00:13:58,399
+with
+
+353
+00:13:58,399 --> 00:14:00,240
+forward slash the name of the folder
+
+354
+00:14:00,240 --> 00:14:03,199
+images slash the name of the image and
+
+355
+00:14:03,199 --> 00:14:05,360
+there it is personally if i'm working
+
+356
+00:14:05,360 --> 00:14:07,680
+with a lot of images i like to place all
+
+357
+00:14:07,680 --> 00:14:10,240
+of my images within one folder if you
+
+358
+00:14:10,240 --> 00:14:12,079
+decide to do that as well you just need
+
+359
+00:14:12,079 --> 00:14:14,639
+to precede the file name with the name
+
+360
+00:14:14,639 --> 00:14:16,399
+of the folder that it's in here's my
+
+361
+00:14:16,399 --> 00:14:18,320
+image but it's fairly massive we can
+
+362
+00:14:18,320 --> 00:14:20,399
+change the width and height attributes
+
+363
+00:14:20,399 --> 00:14:22,480
+if we need to i will change the height
+
+364
+00:14:22,480 --> 00:14:26,320
+attribute height equals maybe 200 and
+
+365
+00:14:26,320 --> 00:14:29,279
+that's a lot smaller maybe 300 that's a
+
+366
+00:14:29,279 --> 00:14:30,959
+little bit better the height and the
+
+367
+00:14:30,959 --> 00:14:32,880
+width will scale proportionately with
+
+368
+00:14:32,880 --> 00:14:34,240
+each other but you can change them
+
+369
+00:14:34,240 --> 00:14:36,639
+individually let's change the width
+
+370
+00:14:36,639 --> 00:14:38,480
+width equals
+
+371
+00:14:38,480 --> 00:14:41,040
+let's say 100
+
+372
+00:14:41,040 --> 00:14:43,680
+what we get is an extra skinnyshrek and
+
+373
+00:14:43,680 --> 00:14:47,120
+if i change this to maybe 600 well shrek
+
+374
+00:14:47,120 --> 00:14:49,839
+is extra thick now so i will just only
+
+375
+00:14:49,839 --> 00:14:52,079
+change the height attribute so that the
+
+376
+00:14:52,079 --> 00:14:54,320
+width attribute scales proportionately
+
+377
+00:14:54,320 --> 00:14:56,240
+now if somebody is visually impaired
+
+378
+00:14:56,240 --> 00:14:58,160
+they may be using a screen reader to
+
+379
+00:14:58,160 --> 00:15:00,000
+navigate a web page it would be good
+
+380
+00:15:00,000 --> 00:15:02,079
+practice to add some alternative text
+
+381
+00:15:02,079 --> 00:15:04,320
+that is read out loud by a screen reader
+
+382
+00:15:04,320 --> 00:15:06,880
+so that is the alt attribute within
+
+383
+00:15:06,880 --> 00:15:08,560
+double quotes i'll type a brief
+
+384
+00:15:08,560 --> 00:15:10,320
+description of this image
+
+385
+00:15:10,320 --> 00:15:14,480
+this is a picture of shrek so when you
+
+386
+00:15:14,480 --> 00:15:15,920
+add an image it's considered good
+
+387
+00:15:15,920 --> 00:15:18,399
+practice to add some alternative text
+
+388
+00:15:18,399 --> 00:15:20,399
+you can also add a title too a title
+
+389
+00:15:20,399 --> 00:15:22,800
+will be a small pop-up box that appears
+
+390
+00:15:22,800 --> 00:15:25,120
+when you hover your cursor over an image
+
+391
+00:15:25,120 --> 00:15:27,440
+to add a title set the title attribute
+
+392
+00:15:27,440 --> 00:15:29,199
+equal to some text
+
+393
+00:15:29,199 --> 00:15:31,519
+uh shrek is
+
+394
+00:15:31,519 --> 00:15:32,880
+shrek see
+
+395
+00:15:32,880 --> 00:15:34,880
+and then i'm going to save hover my
+
+396
+00:15:34,880 --> 00:15:37,360
+cursor over the image and we can see a
+
+397
+00:15:37,360 --> 00:15:40,320
+small pop-up box that has my title shrek
+
+398
+00:15:40,320 --> 00:15:42,959
+is shreksy we can also turn an image
+
+399
+00:15:42,959 --> 00:15:45,440
+into a hyperlink to turn this image into
+
+400
+00:15:45,440 --> 00:15:47,360
+a hyperlink we need to surround our
+
+401
+00:15:47,360 --> 00:15:49,120
+image element with an opening and
+
+402
+00:15:49,120 --> 00:15:50,880
+closing a tag
+
+403
+00:15:50,880 --> 00:15:53,279
+so open and close within the opening a
+
+404
+00:15:53,279 --> 00:15:55,519
+tag there is an href attribute that we
+
+405
+00:15:55,519 --> 00:15:58,399
+can set to a url of our choosing i think
+
+406
+00:15:58,399 --> 00:16:00,720
+i'll set this hyperlink to the wikipedia
+
+407
+00:16:00,720 --> 00:16:03,440
+page for shrek so just type in the url
+
+408
+00:16:03,440 --> 00:16:06,399
+between these double quotes save then if
+
+409
+00:16:06,399 --> 00:16:08,320
+i were to click on my image this will
+
+410
+00:16:08,320 --> 00:16:10,639
+take me to the wikipedia page for shrek
+
+411
+00:16:10,639 --> 00:16:12,560
+or some other url depending on what you
+
+412
+00:16:12,560 --> 00:16:14,720
+type here so yeah that's how to add an
+
+413
+00:16:14,720 --> 00:16:16,800
+image to a web page within the body
+
+414
+00:16:16,800 --> 00:16:19,040
+element you need to add an image element
+
+415
+00:16:19,040 --> 00:16:21,040
+and then set the source equal to the
+
+416
+00:16:21,040 --> 00:16:22,639
+image name if you found this video
+
+417
+00:16:22,639 --> 00:16:24,560
+helpful please remember to smash that
+
+418
+00:16:24,560 --> 00:16:26,160
+like button leave a random comment down
+
+419
+00:16:26,160 --> 00:16:27,839
+below and subscribe if you'd like to
+
+420
+00:16:27,839 --> 00:16:30,880
+become a fellow bro
+
+421
+00:16:32,720 --> 00:16:34,800
+if you do need an mp3 file to work with
+
+422
+00:16:34,800 --> 00:16:36,720
+for this video i recommend heading to
+
+423
+00:16:36,720 --> 00:16:39,279
+the youtube audio library and then you
+
+424
+00:16:39,279 --> 00:16:40,880
+can search and download a song of your
+
+425
+00:16:40,880 --> 00:16:43,680
+choosing so after you find an mp3 file
+
+426
+00:16:43,680 --> 00:16:46,000
+you can use a wav file too just drag and
+
+427
+00:16:46,000 --> 00:16:48,360
+drop it to your folder containing your
+
+428
+00:16:48,360 --> 00:16:51,279
+index.html file and then we can head to
+
+429
+00:16:51,279 --> 00:16:53,920
+vs code now to add audio to our web page
+
+430
+00:16:53,920 --> 00:16:56,320
+we need an audio element
+
+431
+00:16:56,320 --> 00:16:59,440
+so within angle brackets audio and list
+
+432
+00:16:59,440 --> 00:17:02,800
+the source equal to the name of your mp3
+
+433
+00:17:02,800 --> 00:17:04,720
+or wav file we're going to need some
+
+434
+00:17:04,720 --> 00:17:07,679
+controls so this is a boolean attribute
+
+435
+00:17:07,679 --> 00:17:09,520
+we don't need to set the sql to anything
+
+436
+00:17:09,520 --> 00:17:11,679
+it's either true or false and to set it
+
+437
+00:17:11,679 --> 00:17:13,359
+equal to true you just type the name of
+
+438
+00:17:13,359 --> 00:17:15,679
+the attribute so within the audio
+
+439
+00:17:15,679 --> 00:17:18,319
+element type controls and up top here we
+
+440
+00:17:18,319 --> 00:17:21,039
+have our controls for our mp3 file with
+
+441
+00:17:21,039 --> 00:17:22,959
+these controls we can play some audio
+
+442
+00:17:22,959 --> 00:17:25,868
+file of our choosing
+
+443
+00:17:25,868 --> 00:17:29,039
+[Music]
+
+444
+00:17:29,039 --> 00:17:31,940
+we can fast forward
+
+445
+00:17:31,940 --> 00:17:37,200
+[Music]
+
+446
+00:17:37,200 --> 00:17:38,880
+and we can mute here's a couple other
+
+447
+00:17:38,880 --> 00:17:41,200
+boolean attributes we can have our audio
+
+448
+00:17:41,200 --> 00:17:43,280
+autoplay by using the autoplay boolean
+
+449
+00:17:43,280 --> 00:17:46,280
+attribute
+
+450
+00:17:47,760 --> 00:17:49,360
+if you would like this to be muted
+
+451
+00:17:49,360 --> 00:17:52,480
+originally type muted so this is playing
+
+452
+00:17:52,480 --> 00:17:55,840
+but you can't hear it because it's muted
+
+453
+00:17:55,840 --> 00:17:58,720
+if you need this to loop just type loop
+
+454
+00:17:58,720 --> 00:18:01,280
+yep and it's looping you can have backup
+
+455
+00:18:01,280 --> 00:18:02,880
+audio files just in case your web
+
+456
+00:18:02,880 --> 00:18:05,120
+browser doesn't support a given format
+
+457
+00:18:05,120 --> 00:18:06,960
+so if you would like some backup audio
+
+458
+00:18:06,960 --> 00:18:08,640
+files we're going to change this around
+
+459
+00:18:08,640 --> 00:18:10,240
+a little bit so let's get rid of our
+
+460
+00:18:10,240 --> 00:18:12,320
+source and we'll create an audio closing
+
+461
+00:18:12,320 --> 00:18:13,200
+tag
+
+462
+00:18:13,200 --> 00:18:15,520
+and we will create multiple nested
+
+463
+00:18:15,520 --> 00:18:16,880
+source elements
+
+464
+00:18:16,880 --> 00:18:18,160
+type source
+
+465
+00:18:18,160 --> 00:18:21,200
+source equals the name of one audio file
+
+466
+00:18:21,200 --> 00:18:23,280
+you would like to use primarily if you
+
+467
+00:18:23,280 --> 00:18:26,320
+have a backup let's say we have the same
+
+468
+00:18:26,320 --> 00:18:28,960
+song as a wav file you can do that too
+
+469
+00:18:28,960 --> 00:18:30,880
+if for some reason the browser using
+
+470
+00:18:30,880 --> 00:18:32,960
+doesn't support these first two audio
+
+471
+00:18:32,960 --> 00:18:35,360
+files you can always display a message
+
+472
+00:18:35,360 --> 00:18:39,760
+this browser does not support
+
+473
+00:18:39,760 --> 00:18:41,679
+html5
+
+474
+00:18:41,679 --> 00:18:43,919
+audio so yeah everybody that's how to
+
+475
+00:18:43,919 --> 00:18:46,160
+add audio to a web page you just have to
+
+476
+00:18:46,160 --> 00:18:48,240
+use this audio element and set the
+
+477
+00:18:48,240 --> 00:18:50,480
+source equal to an audio file of your
+
+478
+00:18:50,480 --> 00:18:52,720
+choosing and there's a bunch of boolean
+
+479
+00:18:52,720 --> 00:18:54,240
+attributes that you can add to if you
+
+480
+00:18:54,240 --> 00:18:56,160
+would like some controls if you need to
+
+481
+00:18:56,160 --> 00:18:57,760
+set this to autoplay if you need it
+
+482
+00:18:57,760 --> 00:18:59,760
+muted and if you need it to loop so yeah
+
+483
+00:18:59,760 --> 00:19:01,919
+that's how to add audio to a webpage if
+
+484
+00:19:01,919 --> 00:19:03,600
+you found this video helpful please be
+
+485
+00:19:03,600 --> 00:19:05,600
+sure to smash that like button leave a
+
+486
+00:19:05,600 --> 00:19:07,600
+random comment down below and subscribe
+
+487
+00:19:07,600 --> 00:19:11,840
+if you'd like to become a fellow bro
+
+488
+00:19:12,400 --> 00:19:14,480
+all right welcome back everybody in this
+
+489
+00:19:14,480 --> 00:19:15,919
+video i'm going to show you all how we
+
+490
+00:19:15,919 --> 00:19:18,240
+can add a video to a web page you'll
+
+491
+00:19:18,240 --> 00:19:20,799
+need a video of one of these file types
+
+492
+00:19:20,799 --> 00:19:22,720
+when i was in tokyo some number of years
+
+493
+00:19:22,720 --> 00:19:25,120
+ago i saw a real-life mario kart racing
+
+494
+00:19:25,120 --> 00:19:26,799
+down the street so what i'm going to do
+
+495
+00:19:26,799 --> 00:19:29,559
+is place this mp4 file next to my
+
+496
+00:19:29,559 --> 00:19:32,240
+index.html file and then within vs code
+
+497
+00:19:32,240 --> 00:19:34,320
+we need a video element
+
+498
+00:19:34,320 --> 00:19:37,280
+and we will list the src attribute equal
+
+499
+00:19:37,280 --> 00:19:39,039
+to the name of our file that we're
+
+500
+00:19:39,039 --> 00:19:40,080
+working with
+
+501
+00:19:40,080 --> 00:19:42,799
+and in my case it's racing.mp4 now this
+
+502
+00:19:42,799 --> 00:19:45,280
+video is massive so let's change the
+
+503
+00:19:45,280 --> 00:19:48,240
+width of this using the width attribute
+
+504
+00:19:48,240 --> 00:19:51,039
+width equals what about
+
+505
+00:19:51,039 --> 00:19:52,480
+500
+
+506
+00:19:52,480 --> 00:19:54,400
+that's a lot better but we'll need some
+
+507
+00:19:54,400 --> 00:19:56,400
+controls to actually play this video i'm
+
+508
+00:19:56,400 --> 00:19:58,000
+clicking on this and nothing's happening
+
+509
+00:19:58,000 --> 00:20:00,640
+controls is a boolean attribute we only
+
+510
+00:20:00,640 --> 00:20:02,400
+have to list the attribute name to add
+
+511
+00:20:02,400 --> 00:20:04,000
+controls
+
+512
+00:20:04,000 --> 00:20:07,840
+there we go we now have some controls
+
+513
+00:20:08,340 --> 00:20:10,000
+[Music]
+
+514
+00:20:10,000 --> 00:20:11,520
+now if you want this to play maybe in
+
+515
+00:20:11,520 --> 00:20:12,960
+the background and you do not want
+
+516
+00:20:12,960 --> 00:20:14,559
+controls you can always set this to
+
+517
+00:20:14,559 --> 00:20:17,559
+autoplay
+
+518
+00:20:17,970 --> 00:20:21,039
+[Music]
+
+519
+00:20:21,039 --> 00:20:23,280
+so i'm going to add the controls back if
+
+520
+00:20:23,280 --> 00:20:25,679
+you need this muted just add the muted
+
+521
+00:20:25,679 --> 00:20:28,159
+boolean attribute
+
+522
+00:20:28,159 --> 00:20:29,600
+so it's playing but we can't hear
+
+523
+00:20:29,600 --> 00:20:30,720
+anything
+
+524
+00:20:30,720 --> 00:20:32,640
+and if you need this to loop just add
+
+525
+00:20:32,640 --> 00:20:35,120
+the loop boolean attribute and this
+
+526
+00:20:35,120 --> 00:20:36,799
+should loop
+
+527
+00:20:36,799 --> 00:20:38,400
+yeah there it is here's another thing
+
+528
+00:20:38,400 --> 00:20:39,840
+that we can try let's get rid of our
+
+529
+00:20:39,840 --> 00:20:41,679
+source attribute and we're going to
+
+530
+00:20:41,679 --> 00:20:45,120
+create a video closing tag
+
+531
+00:20:45,120 --> 00:20:47,760
+and we will create nested sources within
+
+532
+00:20:47,760 --> 00:20:50,720
+our video element
+
+533
+00:20:51,120 --> 00:20:54,960
+source src equals our video file so just
+
+534
+00:20:54,960 --> 00:20:56,799
+in case your browser doesn't support an
+
+535
+00:20:56,799 --> 00:20:59,200
+mp4 video file you can always create
+
+536
+00:20:59,200 --> 00:21:01,760
+another source
+
+537
+00:21:01,760 --> 00:21:04,960
+let's say that we have a web m file as a
+
+538
+00:21:04,960 --> 00:21:07,120
+backup just in case that this browser
+
+539
+00:21:07,120 --> 00:21:09,440
+doesn't support an mp4 file and if for
+
+540
+00:21:09,440 --> 00:21:11,440
+some reason that no other sources work
+
+541
+00:21:11,440 --> 00:21:13,360
+you can always add a note
+
+542
+00:21:13,360 --> 00:21:17,159
+this browser does not support
+
+543
+00:21:17,159 --> 00:21:18,799
+html5
+
+544
+00:21:18,799 --> 00:21:20,960
+audio so you can write it either way but
+
+545
+00:21:20,960 --> 00:21:22,400
+if you have multiple sources you can
+
+546
+00:21:22,400 --> 00:21:24,400
+always have backups just in case this
+
+547
+00:21:24,400 --> 00:21:26,320
+primary source doesn't work so yeah
+
+548
+00:21:26,320 --> 00:21:28,559
+everybody that's how to add a video to a
+
+549
+00:21:28,559 --> 00:21:30,320
+webpage if you found this video helpful
+
+550
+00:21:30,320 --> 00:21:32,400
+please be sure to smash that like button
+
+551
+00:21:32,400 --> 00:21:34,159
+leave a random comment down below and
+
+552
+00:21:34,159 --> 00:21:35,679
+subscribe if you'd like to become a
+
+553
+00:21:35,679 --> 00:21:38,320
+fellow bro
+
+554
+00:21:39,520 --> 00:21:41,760
+all right welcome back everybody so in
+
+555
+00:21:41,760 --> 00:21:43,520
+this video i'm going to show you all a
+
+556
+00:21:43,520 --> 00:21:45,840
+few useful text formatting tags that you
+
+557
+00:21:45,840 --> 00:21:47,440
+may be interested in we'll need some
+
+558
+00:21:47,440 --> 00:21:50,799
+sample text to work with this is normal
+
+559
+00:21:50,799 --> 00:21:52,720
+text we'll create additional lines of
+
+560
+00:21:52,720 --> 00:21:55,280
+text so i'm going to surround this text
+
+561
+00:21:55,280 --> 00:21:57,520
+with a pair of paragraph tags just so
+
+562
+00:21:57,520 --> 00:21:59,440
+that when we add additional text they
+
+563
+00:21:59,440 --> 00:22:01,360
+will be added to a new line let's copy
+
+564
+00:22:01,360 --> 00:22:03,440
+this line and paste it nine additional
+
+565
+00:22:03,440 --> 00:22:06,000
+times let's say
+
+566
+00:22:06,000 --> 00:22:08,000
+there we go first set of text formatting
+
+567
+00:22:08,000 --> 00:22:10,960
+tags that i'll show you is bold any text
+
+568
+00:22:10,960 --> 00:22:13,200
+that you need to bold just surround that
+
+569
+00:22:13,200 --> 00:22:16,159
+text with a pair of b tags we need an
+
+570
+00:22:16,159 --> 00:22:18,799
+opening b tag and a closing beats egg
+
+571
+00:22:18,799 --> 00:22:21,600
+this is normal text and you can see that
+
+572
+00:22:21,600 --> 00:22:24,480
+the word normal is bold uh let's change
+
+573
+00:22:24,480 --> 00:22:26,240
+that to bold just so that it's more
+
+574
+00:22:26,240 --> 00:22:28,159
+descriptive of what it does
+
+575
+00:22:28,159 --> 00:22:30,080
+okay so any text you need bold just
+
+576
+00:22:30,080 --> 00:22:32,080
+surround with a pair of b tags the next
+
+577
+00:22:32,080 --> 00:22:34,880
+set of tags is italic surround any text
+
+578
+00:22:34,880 --> 00:22:37,200
+that you need italic with a pair of eye
+
+579
+00:22:37,200 --> 00:22:42,159
+tags this is italic text we have big
+
+580
+00:22:42,159 --> 00:22:44,640
+this is big text
+
+581
+00:22:44,640 --> 00:22:47,280
+we have small
+
+582
+00:22:47,679 --> 00:22:53,280
+this is small text sub for subscript
+
+583
+00:22:53,520 --> 00:22:57,039
+this is subscript text superscript
+
+584
+00:22:57,039 --> 00:22:59,280
+the tag name is sup like you're saying
+
+585
+00:22:59,280 --> 00:23:01,039
+sup to somebody
+
+586
+00:23:01,039 --> 00:23:03,760
+this is superscript text we have
+
+587
+00:23:03,760 --> 00:23:06,960
+inserted inserted is just underlined
+
+588
+00:23:06,960 --> 00:23:09,679
+ins for inserted
+
+589
+00:23:09,679 --> 00:23:12,320
+this is inserted text
+
+590
+00:23:12,320 --> 00:23:15,200
+there is deleted deleted will create a
+
+591
+00:23:15,200 --> 00:23:17,679
+line through some text
+
+592
+00:23:17,679 --> 00:23:20,000
+this is deleted text and there's one
+
+593
+00:23:20,000 --> 00:23:22,240
+more it looks like i miscounted there's
+
+594
+00:23:22,240 --> 00:23:24,000
+also marked
+
+595
+00:23:24,000 --> 00:23:27,440
+so we use a pair of mark tags
+
+596
+00:23:27,440 --> 00:23:30,080
+any text that is marked is highlighted
+
+597
+00:23:30,080 --> 00:23:32,480
+so yeah those are a few text formatting
+
+598
+00:23:32,480 --> 00:23:34,240
+tags that i thought you should know if
+
+599
+00:23:34,240 --> 00:23:35,760
+you found this video helpful please be
+
+600
+00:23:35,760 --> 00:23:37,840
+sure to smash that like button leave a
+
+601
+00:23:37,840 --> 00:23:40,000
+random comment down below and subscribe
+
+602
+00:23:40,000 --> 00:23:43,520
+if you'd like to become a fellow bro
+
+603
+00:23:44,559 --> 00:23:47,039
+hey welcome back in this video i'm going
+
+604
+00:23:47,039 --> 00:23:48,960
+to show you all how we can create lists
+
+605
+00:23:48,960 --> 00:23:50,960
+in html there's three lists we're going
+
+606
+00:23:50,960 --> 00:23:53,360
+to talk about unordered ordered and
+
+607
+00:23:53,360 --> 00:23:55,360
+description lists let's begin with
+
+608
+00:23:55,360 --> 00:23:57,360
+unordered lists to create an unordered
+
+609
+00:23:57,360 --> 00:24:00,880
+list we need a pair of ul tags for an
+
+610
+00:24:00,880 --> 00:24:04,080
+unordered list and between these ul tags
+
+611
+00:24:04,080 --> 00:24:06,799
+we can create individual list items and
+
+612
+00:24:06,799 --> 00:24:09,760
+we use a pair of li tags for each item
+
+613
+00:24:09,760 --> 00:24:11,520
+we would like to add to our list so
+
+614
+00:24:11,520 --> 00:24:13,440
+what's an example of an unordered list
+
+615
+00:24:13,440 --> 00:24:15,440
+one thing that comes to mind is a
+
+616
+00:24:15,440 --> 00:24:17,279
+shopping list like a grocery list
+
+617
+00:24:17,279 --> 00:24:18,640
+because well i'm kind of hungry right
+
+618
+00:24:18,640 --> 00:24:20,240
+now it's breakfast time let's say that
+
+619
+00:24:20,240 --> 00:24:22,240
+we're going to bake a pizza and we need
+
+620
+00:24:22,240 --> 00:24:24,640
+a list of ingredients we need pizza
+
+621
+00:24:24,640 --> 00:24:27,840
+dough so add an item between this pair
+
+622
+00:24:27,840 --> 00:24:31,200
+of li tags and we now have one bulleted
+
+623
+00:24:31,200 --> 00:24:33,440
+item within our unordered list and let's
+
+624
+00:24:33,440 --> 00:24:35,440
+create another item so we can just copy
+
+625
+00:24:35,440 --> 00:24:38,000
+and paste this pair of li tags and
+
+626
+00:24:38,000 --> 00:24:39,760
+create a new list item
+
+627
+00:24:39,760 --> 00:24:42,480
+what about tomato sauce
+
+628
+00:24:42,480 --> 00:24:45,200
+and then maybe cheese
+
+629
+00:24:45,200 --> 00:24:46,799
+and toppings
+
+630
+00:24:46,799 --> 00:24:48,960
+point being to create an unordered list
+
+631
+00:24:48,960 --> 00:24:52,159
+you need a pair of ul tags and with each
+
+632
+00:24:52,159 --> 00:24:54,000
+list item you would like to add to your
+
+633
+00:24:54,000 --> 00:24:56,080
+unordered list you just place within a
+
+634
+00:24:56,080 --> 00:24:59,120
+pair of li tags for list item an ordered
+
+635
+00:24:59,120 --> 00:25:02,400
+list is very similar except we use ol
+
+636
+00:25:02,400 --> 00:25:05,120
+tags so we need an opening ol tag and a
+
+637
+00:25:05,120 --> 00:25:08,080
+closing ol tag so by default each list
+
+638
+00:25:08,080 --> 00:25:10,400
+item is going to be numbered so let's
+
+639
+00:25:10,400 --> 00:25:13,200
+say that we have a to-do list
+
+640
+00:25:13,200 --> 00:25:15,679
+to add a list item we need to use a pair
+
+641
+00:25:15,679 --> 00:25:18,960
+of li tags perhaps this is a schedule of
+
+642
+00:25:18,960 --> 00:25:20,640
+what we have to do in the morning we
+
+643
+00:25:20,640 --> 00:25:22,559
+have to eat breakfast
+
+644
+00:25:22,559 --> 00:25:24,720
+that could be one list item
+
+645
+00:25:24,720 --> 00:25:26,880
+so to add another item we need another
+
+646
+00:25:26,880 --> 00:25:29,200
+pair of li tags
+
+647
+00:25:29,200 --> 00:25:32,159
+then maybe we need to take a shower
+
+648
+00:25:32,159 --> 00:25:34,000
+so each of these is numbered and they're
+
+649
+00:25:34,000 --> 00:25:36,159
+in ascending order
+
+650
+00:25:36,159 --> 00:25:39,200
+and then we want to what about
+
+651
+00:25:39,200 --> 00:25:42,400
+leave for work okay so yeah that is an
+
+652
+00:25:42,400 --> 00:25:44,880
+ordered list the order of the list items
+
+653
+00:25:44,880 --> 00:25:47,120
+does matter and we can change the type
+
+654
+00:25:47,120 --> 00:25:49,760
+too within the opening oil tag there is
+
+655
+00:25:49,760 --> 00:25:52,159
+a type attribute we can set each list
+
+656
+00:25:52,159 --> 00:25:54,480
+item to a number a letter or roman
+
+657
+00:25:54,480 --> 00:25:57,520
+numerals if i would instead like letters
+
+658
+00:25:57,520 --> 00:25:59,760
+i can just set the type equal to a and
+
+659
+00:25:59,760 --> 00:26:01,520
+our list items are now marked with the
+
+660
+00:26:01,520 --> 00:26:03,760
+letter and we have description lists we
+
+661
+00:26:03,760 --> 00:26:06,720
+need a pair of dl tags for description
+
+662
+00:26:06,720 --> 00:26:08,000
+lists
+
+663
+00:26:08,000 --> 00:26:10,640
+and instead of using an li tag for each
+
+664
+00:26:10,640 --> 00:26:14,640
+list item we use a pair of dt tags for
+
+665
+00:26:14,640 --> 00:26:18,000
+description term and dd tags for
+
+666
+00:26:18,000 --> 00:26:21,039
+description definition so for a term
+
+667
+00:26:21,039 --> 00:26:24,080
+that is dt and then we add a definition
+
+668
+00:26:24,080 --> 00:26:26,880
+to this term let's say we have a list of
+
+669
+00:26:26,880 --> 00:26:29,679
+web dev languages for a term we need an
+
+670
+00:26:29,679 --> 00:26:33,520
+opening dt tag and a closing dt tag
+
+671
+00:26:33,520 --> 00:26:35,279
+and then we can add a definition to this
+
+672
+00:26:35,279 --> 00:26:38,559
+term so that would be dd description
+
+673
+00:26:38,559 --> 00:26:40,640
+definition between the opening and
+
+674
+00:26:40,640 --> 00:26:43,600
+closing dd tags we can add a definition
+
+675
+00:26:43,600 --> 00:26:45,760
+to this term
+
+676
+00:26:45,760 --> 00:26:48,640
+let's say that this adds
+
+677
+00:26:48,640 --> 00:26:52,960
+structure to a web page
+
+678
+00:26:52,960 --> 00:26:54,880
+and then to create another term and
+
+679
+00:26:54,880 --> 00:26:58,640
+definition pair we can just copy this
+
+680
+00:26:59,440 --> 00:27:03,120
+let's add css this adds style to a web
+
+681
+00:27:03,120 --> 00:27:04,480
+page
+
+682
+00:27:04,480 --> 00:27:07,799
+then javascript
+
+683
+00:27:08,640 --> 00:27:09,960
+this adds
+
+684
+00:27:09,960 --> 00:27:12,799
+functionality to a webpage with
+
+685
+00:27:12,799 --> 00:27:15,279
+description lists each list item is a
+
+686
+00:27:15,279 --> 00:27:18,159
+pair of terms and definitions the last
+
+687
+00:27:18,159 --> 00:27:19,600
+thing i'm going to show you you can
+
+688
+00:27:19,600 --> 00:27:22,000
+create a nested list within a list so
+
+689
+00:27:22,000 --> 00:27:24,000
+let's say i would like to add a sub list
+
+690
+00:27:24,000 --> 00:27:26,240
+of individual toppings to our unordered
+
+691
+00:27:26,240 --> 00:27:29,440
+list within the list item we just create
+
+692
+00:27:29,440 --> 00:27:31,840
+a new list let's say that i would like
+
+693
+00:27:31,840 --> 00:27:34,320
+another unordered list so i need a pair
+
+694
+00:27:34,320 --> 00:27:37,279
+of ul tags
+
+695
+00:27:37,279 --> 00:27:39,039
+and what are some toppings we can place
+
+696
+00:27:39,039 --> 00:27:42,320
+on our pizza so we need a list item
+
+697
+00:27:42,320 --> 00:27:44,799
+what about pepperoni
+
+698
+00:27:44,799 --> 00:27:46,320
+so we have a sub list going if you take
+
+699
+00:27:46,320 --> 00:27:48,960
+a look on the webpage right now oh then
+
+700
+00:27:48,960 --> 00:27:49,919
+maybe
+
+701
+00:27:49,919 --> 00:27:51,360
+what about mushrooms next i like
+
+702
+00:27:51,360 --> 00:27:53,120
+mushrooms
+
+703
+00:27:53,120 --> 00:27:54,480
+and
+
+704
+00:27:54,480 --> 00:27:57,039
+peppers i guess all right people those
+
+705
+00:27:57,039 --> 00:27:59,039
+are how to create lists there's three
+
+706
+00:27:59,039 --> 00:28:01,919
+types unordered ordered and description
+
+707
+00:28:01,919 --> 00:28:04,480
+lists just use a pair of appropriate
+
+708
+00:28:04,480 --> 00:28:06,080
+tags depending on the list you want to
+
+709
+00:28:06,080 --> 00:28:08,399
+use so yeah everybody that's how to
+
+710
+00:28:08,399 --> 00:28:10,720
+create different lists in html if you
+
+711
+00:28:10,720 --> 00:28:12,399
+found this video helpful please remember
+
+712
+00:28:12,399 --> 00:28:14,480
+to smash that like button leave a random
+
+713
+00:28:14,480 --> 00:28:16,399
+comment down below and subscribe if
+
+714
+00:28:16,399 --> 00:28:18,399
+you'd like to become a fellow bro
+
+715
+00:28:18,399 --> 00:28:20,559
+hey it's you bro hope you're doing well
+
+716
+00:28:20,559 --> 00:28:22,080
+and in this video i'm going to show you
+
+717
+00:28:22,080 --> 00:28:25,120
+all how we can create a table using html
+
+718
+00:28:25,120 --> 00:28:30,159
+so sit back relax and enjoy the show
+
+719
+00:28:30,159 --> 00:28:31,919
+everyone i'm going to show you all how
+
+720
+00:28:31,919 --> 00:28:34,640
+we can create a table using html let's
+
+721
+00:28:34,640 --> 00:28:37,440
+say that we have a store not an online
+
+722
+00:28:37,440 --> 00:28:39,760
+store but a brick and mortar store and
+
+723
+00:28:39,760 --> 00:28:41,919
+our job is to create a table of the
+
+724
+00:28:41,919 --> 00:28:44,399
+hours of operation for our store
+
+725
+00:28:44,399 --> 00:28:46,320
+which we can best represent with the
+
+726
+00:28:46,320 --> 00:28:48,159
+table on our website so to create a
+
+727
+00:28:48,159 --> 00:28:50,640
+table we'll use a pair of table tags
+
+728
+00:28:50,640 --> 00:28:52,159
+there's an opening table tag and a
+
+729
+00:28:52,159 --> 00:28:54,080
+closing table tag to add a row to our
+
+730
+00:28:54,080 --> 00:28:57,440
+table we can use a pair of tr tags for
+
+731
+00:28:57,440 --> 00:28:59,760
+table row and let's say that we'll have
+
+732
+00:28:59,760 --> 00:29:02,320
+two rows one for the days of the week
+
+733
+00:29:02,320 --> 00:29:04,559
+and the other for the hours of operation
+
+734
+00:29:04,559 --> 00:29:06,640
+so within this first row let's add some
+
+735
+00:29:06,640 --> 00:29:10,159
+headers using th tags for table header
+
+736
+00:29:10,159 --> 00:29:11,919
+and i'll list the days of the week so we
+
+737
+00:29:11,919 --> 00:29:14,399
+have sunday through saturday so to add
+
+738
+00:29:14,399 --> 00:29:16,799
+another header just use another pair of
+
+739
+00:29:16,799 --> 00:29:18,559
+th tags
+
+740
+00:29:18,559 --> 00:29:19,600
+sunday
+
+741
+00:29:19,600 --> 00:29:21,760
+monday
+
+742
+00:29:21,760 --> 00:29:23,039
+tuesday
+
+743
+00:29:23,039 --> 00:29:26,520
+you get the rest
+
+744
+00:29:32,880 --> 00:29:35,840
+table headers are inherently bold if we
+
+745
+00:29:35,840 --> 00:29:37,279
+would like to add some data to the
+
+746
+00:29:37,279 --> 00:29:40,000
+second row we'll add that between the tr
+
+747
+00:29:40,000 --> 00:29:42,240
+tags for the second row
+
+748
+00:29:42,240 --> 00:29:45,440
+so we would like some data which is td
+
+749
+00:29:45,440 --> 00:29:47,679
+we need an opening td tag and a closing
+
+750
+00:29:47,679 --> 00:29:50,559
+td tag for each cell let's pretend that
+
+751
+00:29:50,559 --> 00:29:53,520
+our store is open monday through friday
+
+752
+00:29:53,520 --> 00:29:55,600
+nine to five and closed on the weekends
+
+753
+00:29:55,600 --> 00:29:58,159
+saturday and sunday this first cell is
+
+754
+00:29:58,159 --> 00:30:00,320
+for the first day sunday the first
+
+755
+00:30:00,320 --> 00:30:01,279
+column
+
+756
+00:30:01,279 --> 00:30:04,399
+so we are closed this day let's copy our
+
+757
+00:30:04,399 --> 00:30:06,559
+table data element and copy it this will
+
+758
+00:30:06,559 --> 00:30:08,960
+be for the second row monday and we are
+
+759
+00:30:08,960 --> 00:30:12,320
+open nine to five and let's fill this in
+
+760
+00:30:12,320 --> 00:30:15,679
+for the days monday through friday
+
+761
+00:30:15,679 --> 00:30:18,320
+and then saturday we are closed
+
+762
+00:30:18,320 --> 00:30:20,320
+all right let's color in these cells
+
+763
+00:30:20,320 --> 00:30:22,880
+i'll make the first row a dark gray
+
+764
+00:30:22,880 --> 00:30:24,960
+color so to change the color of the
+
+765
+00:30:24,960 --> 00:30:28,000
+first row within the opening tr tag for
+
+766
+00:30:28,000 --> 00:30:30,399
+the first row there is a bg color
+
+767
+00:30:30,399 --> 00:30:32,799
+attribute which means background color
+
+768
+00:30:32,799 --> 00:30:34,720
+and i will set the sequel to gray and
+
+769
+00:30:34,720 --> 00:30:36,399
+our second row let's make this light
+
+770
+00:30:36,399 --> 00:30:39,679
+gray so within the opening tr tag for
+
+771
+00:30:39,679 --> 00:30:41,679
+the second row let's set the bg color
+
+772
+00:30:41,679 --> 00:30:43,679
+attribute equal to a different color
+
+773
+00:30:43,679 --> 00:30:45,600
+like light gray pick whatever color you
+
+774
+00:30:45,600 --> 00:30:47,120
+want it doesn't necessarily have to be
+
+775
+00:30:47,120 --> 00:30:50,880
+gray so within the opening table tag i
+
+776
+00:30:50,880 --> 00:30:54,159
+will set the bg color equal to what
+
+777
+00:30:54,159 --> 00:30:55,600
+about black
+
+778
+00:30:55,600 --> 00:30:58,159
+cool these cells are left aligned we can
+
+779
+00:30:58,159 --> 00:31:00,640
+center them to center the cells within a
+
+780
+00:31:00,640 --> 00:31:04,000
+row within the opening tr tag there is
+
+781
+00:31:04,000 --> 00:31:06,399
+an align attribute and let's set this
+
+782
+00:31:06,399 --> 00:31:09,440
+equal to center and the text is now
+
+783
+00:31:09,440 --> 00:31:11,679
+centered and lastly let's make all of
+
+784
+00:31:11,679 --> 00:31:14,320
+these cells the same size this wednesday
+
+785
+00:31:14,320 --> 00:31:16,480
+cell is taking up a lot of space let's
+
+786
+00:31:16,480 --> 00:31:20,799
+set the width equal to maybe 100 pixels
+
+787
+00:31:20,799 --> 00:31:24,080
+and i will just copy this
+
+788
+00:31:24,720 --> 00:31:27,120
+and with the opening table element i
+
+789
+00:31:27,120 --> 00:31:29,760
+will set this equal to the width of each
+
+790
+00:31:29,760 --> 00:31:31,760
+cell times the number of cells that we
+
+791
+00:31:31,760 --> 00:31:35,120
+have so if each cell has a width of 100
+
+792
+00:31:35,120 --> 00:31:37,440
+and there's seven cells i will set the
+
+793
+00:31:37,440 --> 00:31:41,039
+width equal to 700.
+
+794
+00:31:41,039 --> 00:31:43,279
+and well there we go all of these cells
+
+795
+00:31:43,279 --> 00:31:45,279
+are now aligned so yeah that's how to
+
+796
+00:31:45,279 --> 00:31:48,960
+create a table in html just use a pair
+
+797
+00:31:48,960 --> 00:31:52,480
+of table tags for each row add a pair of
+
+798
+00:31:52,480 --> 00:31:55,039
+tr tags if you need a row to function as
+
+799
+00:31:55,039 --> 00:31:57,679
+a header such as the days of the week
+
+800
+00:31:57,679 --> 00:32:00,640
+use th tags if you're filling in data
+
+801
+00:32:00,640 --> 00:32:05,039
+for a cell use td tags for table data so
+
+802
+00:32:05,039 --> 00:32:07,039
+yeah that's how to create a table in
+
+803
+00:32:07,039 --> 00:32:09,120
+html if you found this video helpful
+
+804
+00:32:09,120 --> 00:32:11,360
+please be sure to smash that like button
+
+805
+00:32:11,360 --> 00:32:13,120
+leave a random comment down below and
+
+806
+00:32:13,120 --> 00:32:14,559
+subscribe if you'd like to become a
+
+807
+00:32:14,559 --> 00:32:16,320
+fellow bro
+
+808
+00:32:16,320 --> 00:32:18,559
+hey uh what's going on everybody in this
+
+809
+00:32:18,559 --> 00:32:20,159
+video i'm going to show you how we can
+
+810
+00:32:20,159 --> 00:32:23,440
+add color to a webpage so sit back relax
+
+811
+00:32:23,440 --> 00:32:26,320
+and enjoy the show
+
+812
+00:32:26,559 --> 00:32:28,480
+all right now here's how we can add
+
+813
+00:32:28,480 --> 00:32:30,799
+color to a web page we'll be talking a
+
+814
+00:32:30,799 --> 00:32:32,960
+little bit about css but we'll cover
+
+815
+00:32:32,960 --> 00:32:35,919
+this more in depth in the css series i
+
+816
+00:32:35,919 --> 00:32:37,440
+thought this would be a good place for
+
+817
+00:32:37,440 --> 00:32:39,679
+us to introduce colors because we'll be
+
+818
+00:32:39,679 --> 00:32:42,159
+able to color things like buttons and
+
+819
+00:32:42,159 --> 00:32:44,240
+forms and whatnot here's how to add some
+
+820
+00:32:44,240 --> 00:32:46,640
+color to a webpage within the opening
+
+821
+00:32:46,640 --> 00:32:49,039
+tag of an element of your choosing
+
+822
+00:32:49,039 --> 00:32:51,840
+there is a style attribute and within
+
+823
+00:32:51,840 --> 00:32:54,720
+double quotes we can add css properties
+
+824
+00:32:54,720 --> 00:32:56,799
+for my website i would like to change
+
+825
+00:32:56,799 --> 00:32:59,120
+the background color to black because i
+
+826
+00:32:59,120 --> 00:33:00,640
+think it would look cool so within
+
+827
+00:33:00,640 --> 00:33:03,039
+double quotes list the css property you
+
+828
+00:33:03,039 --> 00:33:05,360
+would like to change background color
+
+829
+00:33:05,360 --> 00:33:07,679
+after the colon you can either add a
+
+830
+00:33:07,679 --> 00:33:11,360
+color name rgb values or hexadecimal
+
+831
+00:33:11,360 --> 00:33:13,760
+values let's just say the color black
+
+832
+00:33:13,760 --> 00:33:15,279
+there we go we can no longer see my
+
+833
+00:33:15,279 --> 00:33:17,679
+website let's change the font color of
+
+834
+00:33:17,679 --> 00:33:20,720
+these individual h1 header tags again
+
+835
+00:33:20,720 --> 00:33:22,880
+it's the same process as before
+
+836
+00:33:22,880 --> 00:33:25,039
+style equals
+
+837
+00:33:25,039 --> 00:33:27,600
+within double quotes list the css
+
+838
+00:33:27,600 --> 00:33:29,679
+property you would like to add
+
+839
+00:33:29,679 --> 00:33:31,840
+i would like to add color this time to
+
+840
+00:33:31,840 --> 00:33:34,880
+change the font color and i will pick
+
+841
+00:33:34,880 --> 00:33:38,320
+red there we go this time let's use rgb
+
+842
+00:33:38,320 --> 00:33:40,080
+values
+
+843
+00:33:40,080 --> 00:33:43,120
+so again style attribute equals the css
+
+844
+00:33:43,120 --> 00:33:45,600
+property would like to change
+
+845
+00:33:45,600 --> 00:33:49,840
+to instead use an rgb value type rgb
+
+846
+00:33:49,840 --> 00:33:51,760
+parenthesis then i would recommend
+
+847
+00:33:51,760 --> 00:33:54,000
+looking up a color picker
+
+848
+00:33:54,000 --> 00:33:56,240
+and you can pick a color of whatever you
+
+849
+00:33:56,240 --> 00:33:58,880
+would like uh what about blue
+
+850
+00:33:58,880 --> 00:34:02,480
+perhaps that shade of blue so rgb values
+
+851
+00:34:02,480 --> 00:34:05,440
+are in a group of three a triad
+
+852
+00:34:05,440 --> 00:34:07,919
+so i will copy these three numbers and
+
+853
+00:34:07,919 --> 00:34:11,119
+paste them within the parentheses of rgb
+
+854
+00:34:11,119 --> 00:34:14,000
+and the second h1 header tag is now that
+
+855
+00:34:14,000 --> 00:34:16,560
+specific shade of blue i tend to prefer
+
+856
+00:34:16,560 --> 00:34:20,159
+to use rgb values or hexadecimal values
+
+857
+00:34:20,159 --> 00:34:22,000
+over color names because you have more
+
+858
+00:34:22,000 --> 00:34:25,040
+variety now let's use hexadecimal values
+
+859
+00:34:25,040 --> 00:34:28,800
+style equals the css property
+
+860
+00:34:28,800 --> 00:34:30,879
+of color
+
+861
+00:34:30,879 --> 00:34:33,119
+so hexadecimal values always start with
+
+862
+00:34:33,119 --> 00:34:34,399
+a hashtag
+
+863
+00:34:34,399 --> 00:34:36,480
+what about green
+
+864
+00:34:36,480 --> 00:34:39,199
+so we'll have red blue and green and i
+
+865
+00:34:39,199 --> 00:34:41,520
+will copy this number they are in groups
+
+866
+00:34:41,520 --> 00:34:44,800
+of six and well yeah it's green now cool
+
+867
+00:34:44,800 --> 00:34:47,440
+right okay now let's change both the
+
+868
+00:34:47,440 --> 00:34:49,760
+font color and the background color of
+
+869
+00:34:49,760 --> 00:34:52,320
+this paragraph within the opening tag of
+
+870
+00:34:52,320 --> 00:34:54,560
+this paragraph element
+
+871
+00:34:54,560 --> 00:34:57,760
+we will set the style attribute equal
+
+872
+00:34:57,760 --> 00:35:00,240
+to any css properties within double
+
+873
+00:35:00,240 --> 00:35:01,200
+quotes
+
+874
+00:35:01,200 --> 00:35:04,079
+let's change the background color first
+
+875
+00:35:04,079 --> 00:35:05,359
+background
+
+876
+00:35:05,359 --> 00:35:06,720
+dash color
+
+877
+00:35:06,720 --> 00:35:08,160
+colon space
+
+878
+00:35:08,160 --> 00:35:10,079
+i'll set this to
+
+879
+00:35:10,079 --> 00:35:12,079
+dark gray which is
+
+880
+00:35:12,079 --> 00:35:13,680
+2 2 2
+
+881
+00:35:13,680 --> 00:35:16,400
+2 2 2 then to add multiple css
+
+882
+00:35:16,400 --> 00:35:18,240
+properties separate each with a
+
+883
+00:35:18,240 --> 00:35:20,960
+semicolon and this time i will change
+
+884
+00:35:20,960 --> 00:35:23,440
+just the color and i'll use the same
+
+885
+00:35:23,440 --> 00:35:25,520
+shade of green all right well there we
+
+886
+00:35:25,520 --> 00:35:28,000
+go so yeah everybody that's how to add
+
+887
+00:35:28,000 --> 00:35:30,079
+some colors to your webpage there's more
+
+888
+00:35:30,079 --> 00:35:31,839
+advanced things we can do when we reach
+
+889
+00:35:31,839 --> 00:35:34,800
+the video series on css but what you can
+
+890
+00:35:34,800 --> 00:35:37,359
+do for now within the opening tag of an
+
+891
+00:35:37,359 --> 00:35:39,760
+element of your choosing set the style
+
+892
+00:35:39,760 --> 00:35:41,680
+attribute equal
+
+893
+00:35:41,680 --> 00:35:43,839
+to whatever css properties you would
+
+894
+00:35:43,839 --> 00:35:46,400
+like to add within quotes so yeah that's
+
+895
+00:35:46,400 --> 00:35:48,480
+how to add color to webpage if you found
+
+896
+00:35:48,480 --> 00:35:50,240
+this video helpful please be sure to
+
+897
+00:35:50,240 --> 00:35:52,160
+smash that like button leave random
+
+898
+00:35:52,160 --> 00:35:54,000
+comments down below and subscribe if
+
+899
+00:35:54,000 --> 00:35:58,119
+you'd like to become a fellow bro
+
+900
+00:35:58,560 --> 00:36:01,040
+hey welcome back in this video i'm going
+
+901
+00:36:01,040 --> 00:36:04,320
+to explain the span and div tags let's
+
+902
+00:36:04,320 --> 00:36:08,240
+begin with span span adds markup to text
+
+903
+00:36:08,240 --> 00:36:11,119
+or portion of a document anything that i
+
+904
+00:36:11,119 --> 00:36:13,839
+surround with a pair of spam tags i can
+
+905
+00:36:13,839 --> 00:36:16,880
+apply markup or some effect to so in my
+
+906
+00:36:16,880 --> 00:36:19,520
+example document i have a header and
+
+907
+00:36:19,520 --> 00:36:22,000
+three paragraphs what if i would like
+
+908
+00:36:22,000 --> 00:36:24,000
+this specific sentence to be i don't
+
+909
+00:36:24,000 --> 00:36:25,920
+know red well what i could do is
+
+910
+00:36:25,920 --> 00:36:28,400
+surround this sentence in my document
+
+911
+00:36:28,400 --> 00:36:30,880
+with a pair of spam tags
+
+912
+00:36:30,880 --> 00:36:33,200
+so i need an opening spam tag and a
+
+913
+00:36:33,200 --> 00:36:34,880
+closing spam tag
+
+914
+00:36:34,880 --> 00:36:37,440
+and that sentence ends right here and
+
+915
+00:36:37,440 --> 00:36:40,000
+within the span tag i can change some of
+
+916
+00:36:40,000 --> 00:36:42,720
+the attributes of this sentence um so i
+
+917
+00:36:42,720 --> 00:36:44,960
+would like to change maybe the style
+
+918
+00:36:44,960 --> 00:36:48,640
+i'll set the style color equal to red
+
+919
+00:36:48,640 --> 00:36:50,720
+now you probably do want this closing
+
+920
+00:36:50,720 --> 00:36:53,440
+tag if you do not have this closing tag
+
+921
+00:36:53,440 --> 00:36:55,520
+your span will take up this entire
+
+922
+00:36:55,520 --> 00:36:56,800
+section
+
+923
+00:36:56,800 --> 00:36:59,520
+so basically that's what span is it adds
+
+924
+00:36:59,520 --> 00:37:02,720
+markup to text or a portion of a
+
+925
+00:37:02,720 --> 00:37:05,839
+document div is very similar except it
+
+926
+00:37:05,839 --> 00:37:08,400
+divides a division of a document so what
+
+927
+00:37:08,400 --> 00:37:10,400
+if i would like to change the background
+
+928
+00:37:10,400 --> 00:37:13,119
+color of these three paragraphs well
+
+929
+00:37:13,119 --> 00:37:14,800
+what we learned in the last video on
+
+930
+00:37:14,800 --> 00:37:18,640
+colors is that we could set the style
+
+931
+00:37:18,640 --> 00:37:20,000
+background
+
+932
+00:37:20,000 --> 00:37:24,320
+color equal to some shade of gray maybe
+
+933
+00:37:24,320 --> 00:37:27,040
+this value this does work and i could
+
+934
+00:37:27,040 --> 00:37:29,280
+just copy this and paste it for each of
+
+935
+00:37:29,280 --> 00:37:31,440
+these paragraphs
+
+936
+00:37:31,440 --> 00:37:33,760
+or another way of doing this is that i
+
+937
+00:37:33,760 --> 00:37:36,560
+can surround these three paragraphs with
+
+938
+00:37:36,560 --> 00:37:38,720
+a pair of div tags
+
+939
+00:37:38,720 --> 00:37:40,880
+so we need an opening div tag
+
+940
+00:37:40,880 --> 00:37:43,839
+and a closing div tag
+
+941
+00:37:43,839 --> 00:37:46,079
+and then i will apply this style
+
+942
+00:37:46,079 --> 00:37:49,119
+attribute to the opening div tag
+
+943
+00:37:49,119 --> 00:37:50,640
+and it will apply
+
+944
+00:37:50,640 --> 00:37:53,359
+this attribute to anything between these
+
+945
+00:37:53,359 --> 00:37:55,599
+div tags so yeah that's basically what
+
+946
+00:37:55,599 --> 00:37:58,640
+the span and div tags do span adds
+
+947
+00:37:58,640 --> 00:38:01,520
+markup to text or portion of a document
+
+948
+00:38:01,520 --> 00:38:04,240
+div defines a division of a document so
+
+949
+00:38:04,240 --> 00:38:09,040
+yeah that's span and div in html
+
+950
+00:38:09,839 --> 00:38:13,359
+yeah let's begin so meta tags the meta
+
+951
+00:38:13,359 --> 00:38:16,160
+element represents various kinds of
+
+952
+00:38:16,160 --> 00:38:19,040
+metadata that cannot be expressed using
+
+953
+00:38:19,040 --> 00:38:21,920
+the title base link style and script
+
+954
+00:38:21,920 --> 00:38:25,599
+elements metadata is data about data we
+
+955
+00:38:25,599 --> 00:38:28,240
+can add metadata to the head of our
+
+956
+00:38:28,240 --> 00:38:30,480
+document and this tells the web browser
+
+957
+00:38:30,480 --> 00:38:32,720
+what our web page is about with the meta
+
+958
+00:38:32,720 --> 00:38:34,960
+tags we place them within the head not
+
+959
+00:38:34,960 --> 00:38:37,040
+the body so we can tell the web browser
+
+960
+00:38:37,040 --> 00:38:39,359
+some information about our web page meta
+
+961
+00:38:39,359 --> 00:38:41,839
+tags are self closing we do not need a
+
+962
+00:38:41,839 --> 00:38:44,800
+closing tag meta tags do have a name
+
+963
+00:38:44,800 --> 00:38:46,960
+attribute that we can set to one of many
+
+964
+00:38:46,960 --> 00:38:48,880
+settings let's say we would like to add
+
+965
+00:38:48,880 --> 00:38:51,440
+a description to this webpage and the
+
+966
+00:38:51,440 --> 00:38:53,200
+web browser is going to read this
+
+967
+00:38:53,200 --> 00:38:55,920
+description after setting the name equal
+
+968
+00:38:55,920 --> 00:38:58,560
+to description i can set the content
+
+969
+00:38:58,560 --> 00:39:00,880
+equal to a brief description of my
+
+970
+00:39:00,880 --> 00:39:02,000
+webpage
+
+971
+00:39:02,000 --> 00:39:04,240
+uh perhaps free
+
+972
+00:39:04,240 --> 00:39:08,000
+html tutorial for beginners
+
+973
+00:39:08,000 --> 00:39:10,400
+okay so that's one example of a meta tag
+
+974
+00:39:10,400 --> 00:39:12,960
+so let's create another so meta again
+
+975
+00:39:12,960 --> 00:39:15,280
+these are self-closing tags and i can
+
+976
+00:39:15,280 --> 00:39:17,440
+add some keywords for search engine
+
+977
+00:39:17,440 --> 00:39:18,960
+optimization
+
+978
+00:39:18,960 --> 00:39:21,040
+so name keywords
+
+979
+00:39:21,040 --> 00:39:22,160
+content
+
+980
+00:39:22,160 --> 00:39:24,320
+and i'll explain my web page in just a
+
+981
+00:39:24,320 --> 00:39:27,280
+few keywords uh perhaps html separate
+
+982
+00:39:27,280 --> 00:39:29,119
+each of these with a comma
+
+983
+00:39:29,119 --> 00:39:30,960
+tutorial
+
+984
+00:39:30,960 --> 00:39:32,000
+beginners
+
+985
+00:39:32,000 --> 00:39:34,800
+that'd be good we can add a author
+
+986
+00:39:34,800 --> 00:39:36,720
+meta name
+
+987
+00:39:36,720 --> 00:39:39,440
+equals author
+
+988
+00:39:39,440 --> 00:39:44,160
+content equals and then type your name
+
+989
+00:39:44,240 --> 00:39:46,320
+so if somebody is viewing your web page
+
+990
+00:39:46,320 --> 00:39:48,640
+on a mobile device you can have your web
+
+991
+00:39:48,640 --> 00:39:51,119
+page scale to their mobile device by
+
+992
+00:39:51,119 --> 00:39:54,480
+adding this meta tag name equals
+
+993
+00:39:54,480 --> 00:39:56,720
+viewport
+
+994
+00:39:56,720 --> 00:39:58,000
+content
+
+995
+00:39:58,000 --> 00:40:00,079
+equals
+
+996
+00:40:00,079 --> 00:40:02,240
+and this will set the width of our web
+
+997
+00:40:02,240 --> 00:40:03,359
+page
+
+998
+00:40:03,359 --> 00:40:07,440
+equal to device dash width
+
+999
+00:40:07,440 --> 00:40:10,400
+then comma we can set the initial
+
+1000
+00:40:10,400 --> 00:40:11,520
+scale
+
+1001
+00:40:11,520 --> 00:40:15,119
+equal to 1.0 so by adding this meta tag
+
+1002
+00:40:15,119 --> 00:40:16,960
+if you were to view this webpage on a
+
+1003
+00:40:16,960 --> 00:40:19,680
+mobile device this web page will scale
+
+1004
+00:40:19,680 --> 00:40:22,000
+proportionately with that mobile device
+
+1005
+00:40:22,000 --> 00:40:26,079
+another meta tag is a char set
+
+1006
+00:40:26,079 --> 00:40:27,839
+we can tell a web browser what sort of
+
+1007
+00:40:27,839 --> 00:40:29,920
+character encoding that we're using
+
+1008
+00:40:29,920 --> 00:40:32,880
+so authors are encouraged to use utf-8
+
+1009
+00:40:32,880 --> 00:40:34,319
+for unicode
+
+1010
+00:40:34,319 --> 00:40:36,160
+so if you want to use basic ascii
+
+1011
+00:40:36,160 --> 00:40:37,760
+encoding you would write ascii here
+
+1012
+00:40:37,760 --> 00:40:40,160
+although that's discouraged authors are
+
+1013
+00:40:40,160 --> 00:40:43,520
+encouraged to use utf-8 for unicode
+
+1014
+00:40:43,520 --> 00:40:44,720
+all right and the last thing i'm going
+
+1015
+00:40:44,720 --> 00:40:46,960
+to show you is that we can set our web
+
+1016
+00:40:46,960 --> 00:40:49,520
+page to automatically refresh after a
+
+1017
+00:40:49,520 --> 00:40:51,119
+given amount of seconds
+
+1018
+00:40:51,119 --> 00:40:53,040
+so meta
+
+1019
+00:40:53,040 --> 00:40:54,720
+http
+
+1020
+00:40:54,720 --> 00:40:58,319
+dash equiv is the attribute name
+
+1021
+00:40:58,319 --> 00:40:59,520
+equals
+
+1022
+00:40:59,520 --> 00:41:01,920
+refresh
+
+1023
+00:41:01,920 --> 00:41:04,640
+and the content equals how many seconds
+
+1024
+00:41:04,640 --> 00:41:05,920
+you would like to wait to have your
+
+1025
+00:41:05,920 --> 00:41:07,440
+browser refresh
+
+1026
+00:41:07,440 --> 00:41:09,440
+uh perhaps 30.
+
+1027
+00:41:09,440 --> 00:41:11,839
+okay so i'm going to open this with live
+
+1028
+00:41:11,839 --> 00:41:14,319
+server so if i set this to 30 seconds
+
+1029
+00:41:14,319 --> 00:41:16,720
+it's not going to be that visible you're
+
+1030
+00:41:16,720 --> 00:41:18,640
+gonna have to wait until we see this
+
+1031
+00:41:18,640 --> 00:41:20,560
+refresh let's set this to something more
+
+1032
+00:41:20,560 --> 00:41:22,720
+drastic like two seconds let's crank
+
+1033
+00:41:22,720 --> 00:41:25,440
+this up yep see it's refreshing every
+
+1034
+00:41:25,440 --> 00:41:27,520
+two seconds uh but let's set that back
+
+1035
+00:41:27,520 --> 00:41:30,160
+to 30. two seconds was just an example
+
+1036
+00:41:30,160 --> 00:41:32,160
+so yeah those are meta tags they
+
+1037
+00:41:32,160 --> 00:41:34,480
+represent metadata
+
+1038
+00:41:34,480 --> 00:41:37,200
+is data about data by adding meta tags
+
+1039
+00:41:37,200 --> 00:41:39,599
+we can tell a web browser information
+
+1040
+00:41:39,599 --> 00:41:41,839
+about our website such as a brief
+
+1041
+00:41:41,839 --> 00:41:44,720
+description keywords author we can set
+
+1042
+00:41:44,720 --> 00:41:47,040
+the viewport for mobile devices you can
+
+1043
+00:41:47,040 --> 00:41:49,280
+set a refresh rate stuff like that and
+
+1044
+00:41:49,280 --> 00:41:51,599
+then be sure to add meta tags to the
+
+1045
+00:41:51,599 --> 00:41:54,240
+head element of your document so yeah
+
+1046
+00:41:54,240 --> 00:41:56,240
+those are meta tags if you found this
+
+1047
+00:41:56,240 --> 00:41:58,160
+video helpful please remember to smash
+
+1048
+00:41:58,160 --> 00:41:59,760
+that like button leave a random comment
+
+1049
+00:41:59,760 --> 00:42:01,599
+down below and subscribe if you'd like
+
+1050
+00:42:01,599 --> 00:42:03,839
+to become a fellow bro
+
+1051
+00:42:03,839 --> 00:42:05,760
+hey what's going on everybody it's you
+
+1052
+00:42:05,760 --> 00:42:07,520
+bro hope you're doing well and in this
+
+1053
+00:42:07,520 --> 00:42:08,960
+video i'm going to explain how we can
+
+1054
+00:42:08,960 --> 00:42:12,000
+use iframes to embed web pages and other
+
+1055
+00:42:12,000 --> 00:42:14,400
+documents within your website so sit
+
+1056
+00:42:14,400 --> 00:42:17,839
+back relax and enjoy the show
+
+1057
+00:42:18,400 --> 00:42:21,680
+hey welcome back iframes the iframe
+
+1058
+00:42:21,680 --> 00:42:24,240
+element is used to embed content from
+
+1059
+00:42:24,240 --> 00:42:27,359
+another source into an html document
+
+1060
+00:42:27,359 --> 00:42:30,160
+they're commonly used for advertisements
+
+1061
+00:42:30,160 --> 00:42:32,319
+and they're easily abused with many
+
+1062
+00:42:32,319 --> 00:42:34,560
+hacking techniques so basically using an
+
+1063
+00:42:34,560 --> 00:42:36,800
+iframe we can embed another web page
+
+1064
+00:42:36,800 --> 00:42:39,280
+within our webpage or we could embed our
+
+1065
+00:42:39,280 --> 00:42:42,000
+current html document with another html
+
+1066
+00:42:42,000 --> 00:42:43,520
+document here's how we can create an
+
+1067
+00:42:43,520 --> 00:42:46,319
+iframe this is a self-closing tag and we
+
+1068
+00:42:46,319 --> 00:42:49,200
+set the source equal to this can be an
+
+1069
+00:42:49,200 --> 00:42:52,640
+external website such as a url or we can
+
+1070
+00:42:52,640 --> 00:42:55,280
+place a relative file path to a file of
+
+1071
+00:42:55,280 --> 00:42:57,440
+our choosing so this doesn't work with
+
+1072
+00:42:57,440 --> 00:43:00,079
+many websites and i'll demonstrate that
+
+1073
+00:43:00,079 --> 00:43:02,920
+so let's set the source equal to
+
+1074
+00:43:02,920 --> 00:43:06,400
+google.com and then save and reload so
+
+1075
+00:43:06,400 --> 00:43:09,040
+google.com refused to connect that's
+
+1076
+00:43:09,040 --> 00:43:11,359
+because a lot of major websites have
+
+1077
+00:43:11,359 --> 00:43:13,599
+disabled the use of iframes since we're
+
+1078
+00:43:13,599 --> 00:43:15,520
+embedding another web page within our
+
+1079
+00:43:15,520 --> 00:43:18,240
+webpage a common hacking technique is
+
+1080
+00:43:18,240 --> 00:43:21,119
+that you can have this embedded webpage
+
+1081
+00:43:21,119 --> 00:43:23,359
+take up the entire frame of your html
+
+1082
+00:43:23,359 --> 00:43:25,760
+document your website could pose as
+
+1083
+00:43:25,760 --> 00:43:27,440
+another website and that could be
+
+1084
+00:43:27,440 --> 00:43:29,359
+considered dangerous let's say that you
+
+1085
+00:43:29,359 --> 00:43:31,599
+embed a banking website like bank of
+
+1086
+00:43:31,599 --> 00:43:33,599
+america so if somebody visits your
+
+1087
+00:43:33,599 --> 00:43:35,680
+website it's actually a facade and
+
+1088
+00:43:35,680 --> 00:43:37,280
+somebody will type in their banking
+
+1089
+00:43:37,280 --> 00:43:39,440
+information like their login credentials
+
+1090
+00:43:39,440 --> 00:43:41,440
+and you could capture that so a lot of
+
+1091
+00:43:41,440 --> 00:43:43,680
+major websites have disabled the use of
+
+1092
+00:43:43,680 --> 00:43:46,160
+iframes so you cannot pose as their
+
+1093
+00:43:46,160 --> 00:43:48,400
+website one website that i checked that
+
+1094
+00:43:48,400 --> 00:43:50,640
+does work is bing
+
+1095
+00:43:50,640 --> 00:43:53,760
+so let's switch our url to that save and
+
+1096
+00:43:53,760 --> 00:43:55,520
+reload
+
+1097
+00:43:55,520 --> 00:43:57,760
+yeah see we have embedded the home page
+
+1098
+00:43:57,760 --> 00:44:00,000
+of bing but let's change the width and
+
+1099
+00:44:00,000 --> 00:44:01,760
+height attributes because this is fairly
+
+1100
+00:44:01,760 --> 00:44:04,839
+small let's say the width is
+
+1101
+00:44:04,839 --> 00:44:07,760
+750 pixels and for the height let's say
+
+1102
+00:44:07,760 --> 00:44:09,920
+maybe 250.
+
+1103
+00:44:09,920 --> 00:44:12,000
+so save and reload
+
+1104
+00:44:12,000 --> 00:44:14,400
+cool yeah we have embedded bing within
+
+1105
+00:44:14,400 --> 00:44:16,000
+our webpage and you can use this
+
+1106
+00:44:16,000 --> 00:44:17,040
+normally
+
+1107
+00:44:17,040 --> 00:44:17,839
+bro
+
+1108
+00:44:17,839 --> 00:44:20,000
+code
+
+1109
+00:44:20,000 --> 00:44:22,160
+now let's embed another document so
+
+1110
+00:44:22,160 --> 00:44:24,480
+let's create a new file
+
+1111
+00:44:24,480 --> 00:44:25,839
+let's pretend that this is an
+
+1112
+00:44:25,839 --> 00:44:27,520
+advertisement we would like to display
+
+1113
+00:44:27,520 --> 00:44:29,960
+within our webpage i'll name this
+
+1114
+00:44:29,960 --> 00:44:33,280
+add.html so if you're using vs code to
+
+1115
+00:44:33,280 --> 00:44:35,920
+generate an html document a plain one
+
+1116
+00:44:35,920 --> 00:44:38,800
+type exclamation point then hit tab
+
+1117
+00:44:38,800 --> 00:44:40,560
+so let's say something
+
+1118
+00:44:40,560 --> 00:44:42,480
+i'll use an h1 header tag
+
+1119
+00:44:42,480 --> 00:44:45,839
+this is an advertisement
+
+1120
+00:44:45,839 --> 00:44:48,000
+and then close it uh let's change the
+
+1121
+00:44:48,000 --> 00:44:50,400
+background color too using the style
+
+1122
+00:44:50,400 --> 00:44:51,680
+attribute
+
+1123
+00:44:51,680 --> 00:44:54,240
+and i will pick the background color
+
+1124
+00:44:54,240 --> 00:44:56,880
+property and set this to maybe i don't
+
+1125
+00:44:56,880 --> 00:44:59,440
+know that color uh then let's change the
+
+1126
+00:44:59,440 --> 00:45:01,440
+width and height for the height maybe
+
+1127
+00:45:01,440 --> 00:45:03,440
+100
+
+1128
+00:45:03,440 --> 00:45:05,280
+then make sure to change your source as
+
+1129
+00:45:05,280 --> 00:45:07,599
+well so we need to list the relative
+
+1130
+00:45:07,599 --> 00:45:09,760
+file path since these files are right
+
+1131
+00:45:09,760 --> 00:45:11,440
+next to each other i only have to list
+
+1132
+00:45:11,440 --> 00:45:13,000
+the file name
+
+1133
+00:45:13,000 --> 00:45:16,960
+add.html save reload
+
+1134
+00:45:16,960 --> 00:45:19,839
+cool and there is my fake advertisement
+
+1135
+00:45:19,839 --> 00:45:22,160
+embedded pages do have a border this is
+
+1136
+00:45:22,160 --> 00:45:24,800
+how to remove that set the style
+
+1137
+00:45:24,800 --> 00:45:26,160
+attribute
+
+1138
+00:45:26,160 --> 00:45:30,319
+equal to the border css property and set
+
+1139
+00:45:30,319 --> 00:45:34,880
+this to zero so i'm going to save reload
+
+1140
+00:45:34,880 --> 00:45:37,599
+and this no longer has that border so
+
+1141
+00:45:37,599 --> 00:45:40,319
+yeah everybody those are iframes they're
+
+1142
+00:45:40,319 --> 00:45:42,400
+used to embed content from another
+
+1143
+00:45:42,400 --> 00:45:45,119
+source into an html document they're
+
+1144
+00:45:45,119 --> 00:45:47,359
+useful for advertisements and they're
+
+1145
+00:45:47,359 --> 00:45:49,359
+easily abused with a lot of hacking
+
+1146
+00:45:49,359 --> 00:45:52,079
+techniques so yeah those are iframes if
+
+1147
+00:45:52,079 --> 00:45:54,240
+you learn something new be sure to smash
+
+1148
+00:45:54,240 --> 00:45:55,920
+that like button drop a random comment
+
+1149
+00:45:55,920 --> 00:45:57,760
+down below and subscribe if you'd like
+
+1150
+00:45:57,760 --> 00:45:59,599
+to become a fellow bro
+
+1151
+00:45:59,599 --> 00:46:01,760
+what's going on everybody it's you bro
+
+1152
+00:46:01,760 --> 00:46:03,520
+hope you're doing well and in this video
+
+1153
+00:46:03,520 --> 00:46:04,960
+i'm going to show you how you can create
+
+1154
+00:46:04,960 --> 00:46:08,240
+a button using html so sit back relax
+
+1155
+00:46:08,240 --> 00:46:11,119
+and enjoy the show
+
+1156
+00:46:11,599 --> 00:46:13,599
+hey in this video i'm going to show you
+
+1157
+00:46:13,599 --> 00:46:16,240
+how we can create buttons using html
+
+1158
+00:46:16,240 --> 00:46:18,880
+we'll need a pair of button tags there's
+
+1159
+00:46:18,880 --> 00:46:20,480
+an opening button tag and a closing
+
+1160
+00:46:20,480 --> 00:46:23,200
+button tag here's our button to add some
+
+1161
+00:46:23,200 --> 00:46:26,000
+text between the button tags we can add
+
+1162
+00:46:26,000 --> 00:46:28,240
+whatever text we want to the button like
+
+1163
+00:46:28,240 --> 00:46:29,200
+click me
+
+1164
+00:46:29,200 --> 00:46:31,200
+you can set this up as a hyperlink when
+
+1165
+00:46:31,200 --> 00:46:32,800
+you click on the button to do so just
+
+1166
+00:46:32,800 --> 00:46:34,880
+surround your button element with a pair
+
+1167
+00:46:34,880 --> 00:46:36,400
+of a tags
+
+1168
+00:46:36,400 --> 00:46:38,319
+there's an opening a tag and a closing a
+
+1169
+00:46:38,319 --> 00:46:39,200
+tag
+
+1170
+00:46:39,200 --> 00:46:42,079
+and i will set the href attribute of the
+
+1171
+00:46:42,079 --> 00:46:45,280
+opening button tag to a url or relative
+
+1172
+00:46:45,280 --> 00:46:47,359
+file path of my choosing to make this
+
+1173
+00:46:47,359 --> 00:46:52,640
+simple let's set the url to google.com
+
+1174
+00:46:54,319 --> 00:46:56,160
+and then when i click on this button it
+
+1175
+00:46:56,160 --> 00:46:58,319
+takes me to google you can disable a
+
+1176
+00:46:58,319 --> 00:47:01,040
+button by adding a disabled boolean
+
+1177
+00:47:01,040 --> 00:47:03,520
+attribute to the opening button tag and
+
+1178
+00:47:03,520 --> 00:47:05,839
+we can no longer click on this button
+
+1179
+00:47:05,839 --> 00:47:08,000
+if you know a little bit of css you can
+
+1180
+00:47:08,000 --> 00:47:10,400
+add some css properties directly to a
+
+1181
+00:47:10,400 --> 00:47:13,280
+button by setting the style attribute
+
+1182
+00:47:13,280 --> 00:47:16,480
+equal to and list some css properties of
+
+1183
+00:47:16,480 --> 00:47:18,560
+your choosing let's change the
+
+1184
+00:47:18,560 --> 00:47:20,960
+background color
+
+1185
+00:47:20,960 --> 00:47:24,559
+you can pick a color name
+
+1186
+00:47:24,559 --> 00:47:27,599
+you can use rgb values
+
+1187
+00:47:27,599 --> 00:47:31,520
+or you can use hexadecimal values
+
+1188
+00:47:31,599 --> 00:47:34,000
+i think i'll set this to a dark gray
+
+1189
+00:47:34,000 --> 00:47:35,839
+color so maybe
+
+1190
+00:47:35,839 --> 00:47:37,280
+6 3s
+
+1191
+00:47:37,280 --> 00:47:39,920
+for rgb values and hexadecimal values
+
+1192
+00:47:39,920 --> 00:47:42,640
+you can always use a color picker online
+
+1193
+00:47:42,640 --> 00:47:45,040
+so if you would like to add multiple css
+
+1194
+00:47:45,040 --> 00:47:47,839
+properties separate each css property
+
+1195
+00:47:47,839 --> 00:47:50,480
+with a semicolon and next i will change
+
+1196
+00:47:50,480 --> 00:47:53,200
+the color that's the font color and
+
+1197
+00:47:53,200 --> 00:47:55,680
+maybe i'll pick green one color i like
+
+1198
+00:47:55,680 --> 00:47:59,280
+is zero zero ff zero zero that's just a
+
+1199
+00:47:59,280 --> 00:48:01,520
+bright green color you can also round
+
+1200
+00:48:01,520 --> 00:48:04,319
+these borders too by using the border
+
+1201
+00:48:04,319 --> 00:48:07,280
+radius property so again separate each
+
+1202
+00:48:07,280 --> 00:48:09,920
+css property with a semicolon
+
+1203
+00:48:09,920 --> 00:48:12,960
+and i will set the border radius
+
+1204
+00:48:12,960 --> 00:48:15,599
+property to 5 pixels just around the
+
+1205
+00:48:15,599 --> 00:48:16,880
+corners
+
+1206
+00:48:16,880 --> 00:48:18,240
+okay cool
+
+1207
+00:48:18,240 --> 00:48:20,319
+that's a pretty fancy looking button if
+
+1208
+00:48:20,319 --> 00:48:22,400
+i do say so myself and yep it still
+
+1209
+00:48:22,400 --> 00:48:25,520
+takes us to google just by us using html
+
+1210
+00:48:25,520 --> 00:48:28,079
+this adds structure to a webpage but it
+
+1211
+00:48:28,079 --> 00:48:30,480
+doesn't necessarily add functionality
+
+1212
+00:48:30,480 --> 00:48:32,480
+that's where a language like javascript
+
+1213
+00:48:32,480 --> 00:48:34,400
+comes in when we click on a button we
+
+1214
+00:48:34,400 --> 00:48:36,559
+can have this button execute some
+
+1215
+00:48:36,559 --> 00:48:38,559
+function from a javascript file i'll
+
+1216
+00:48:38,559 --> 00:48:41,119
+show you how we can create a very simple
+
+1217
+00:48:41,119 --> 00:48:43,200
+javascript program but of course we'll
+
+1218
+00:48:43,200 --> 00:48:46,079
+cover this more in the javascript series
+
+1219
+00:48:46,079 --> 00:48:48,720
+so let's get rid of this hyperlink
+
+1220
+00:48:48,720 --> 00:48:51,040
+and have our button do something else
+
+1221
+00:48:51,040 --> 00:48:52,640
+there is an on
+
+1222
+00:48:52,640 --> 00:48:55,440
+click attribute that we can set to a
+
+1223
+00:48:55,440 --> 00:48:57,200
+javascript function
+
+1224
+00:48:57,200 --> 00:48:58,800
+so we just place the name of the
+
+1225
+00:48:58,800 --> 00:49:01,920
+function between a set of double quotes
+
+1226
+00:49:01,920 --> 00:49:03,839
+we haven't created a javascript function
+
+1227
+00:49:03,839 --> 00:49:05,599
+yet but let's say that we'll have a
+
+1228
+00:49:05,599 --> 00:49:08,640
+javascript function named do something
+
+1229
+00:49:08,640 --> 00:49:10,160
+and then follow that name with a set of
+
+1230
+00:49:10,160 --> 00:49:12,960
+parentheses and let's create a paragraph
+
+1231
+00:49:12,960 --> 00:49:14,880
+element
+
+1232
+00:49:14,880 --> 00:49:18,480
+and we will say hello and then close it
+
+1233
+00:49:18,480 --> 00:49:20,640
+with this paragraph element i'm going to
+
+1234
+00:49:20,640 --> 00:49:24,079
+set the id attribute equal to let's say
+
+1235
+00:49:24,079 --> 00:49:26,319
+test here's how we can code a very
+
+1236
+00:49:26,319 --> 00:49:29,040
+simple javascript program you're going
+
+1237
+00:49:29,040 --> 00:49:31,920
+to create a pair of script tags there's
+
+1238
+00:49:31,920 --> 00:49:33,599
+an opening script tag and a closing
+
+1239
+00:49:33,599 --> 00:49:35,680
+script tag
+
+1240
+00:49:35,680 --> 00:49:38,480
+and within the script i will say
+
+1241
+00:49:38,480 --> 00:49:40,079
+function
+
+1242
+00:49:40,079 --> 00:49:41,520
+do something
+
+1243
+00:49:41,520 --> 00:49:44,480
+parentheses curly braces
+
+1244
+00:49:44,480 --> 00:49:46,880
+so this function will perform some
+
+1245
+00:49:46,880 --> 00:49:49,200
+subsection of code so when we click on
+
+1246
+00:49:49,200 --> 00:49:51,440
+our button what do we want this program
+
+1247
+00:49:51,440 --> 00:49:54,880
+to do we will take document dot
+
+1248
+00:49:54,880 --> 00:49:55,839
+get
+
+1249
+00:49:55,839 --> 00:49:56,839
+element
+
+1250
+00:49:56,839 --> 00:49:59,040
+by id
+
+1251
+00:49:59,040 --> 00:50:00,400
+parentheses
+
+1252
+00:50:00,400 --> 00:50:03,359
+list the id of our paragraph element
+
+1253
+00:50:03,359 --> 00:50:04,640
+test
+
+1254
+00:50:04,640 --> 00:50:05,599
+dot
+
+1255
+00:50:05,599 --> 00:50:06,800
+inner
+
+1256
+00:50:06,800 --> 00:50:08,480
+html
+
+1257
+00:50:08,480 --> 00:50:11,040
+and i will set the sequel to
+
+1258
+00:50:11,040 --> 00:50:12,640
+goodbye
+
+1259
+00:50:12,640 --> 00:50:15,520
+then add a semicolon at the end okay so
+
+1260
+00:50:15,520 --> 00:50:17,440
+when we click on this button it's going
+
+1261
+00:50:17,440 --> 00:50:20,400
+to execute this function do something
+
+1262
+00:50:20,400 --> 00:50:22,240
+and then perform whatever code is
+
+1263
+00:50:22,240 --> 00:50:24,720
+between this set of curly braces
+
+1264
+00:50:24,720 --> 00:50:26,720
+so you may need to save
+
+1265
+00:50:26,720 --> 00:50:28,960
+refresh your web page and if done
+
+1266
+00:50:28,960 --> 00:50:31,440
+correctly when you click on this button
+
+1267
+00:50:31,440 --> 00:50:33,760
+it will change this text
+
+1268
+00:50:33,760 --> 00:50:35,200
+from hello
+
+1269
+00:50:35,200 --> 00:50:36,480
+to goodbye
+
+1270
+00:50:36,480 --> 00:50:39,200
+so that is a very small javascript
+
+1271
+00:50:39,200 --> 00:50:41,599
+program so there is an on click
+
+1272
+00:50:41,599 --> 00:50:44,319
+attribute that you can set equal to a
+
+1273
+00:50:44,319 --> 00:50:46,640
+javascript function but of course we'll
+
+1274
+00:50:46,640 --> 00:50:49,040
+cover more about javascript well in the
+
+1275
+00:50:49,040 --> 00:50:51,200
+javascript playlist but that's one way
+
+1276
+00:50:51,200 --> 00:50:53,119
+in which you can add functionality to a
+
+1277
+00:50:53,119 --> 00:50:55,119
+button in this video we were more
+
+1278
+00:50:55,119 --> 00:50:57,200
+focused on actually creating the button
+
+1279
+00:50:57,200 --> 00:50:59,359
+itself so yeah if this video helped you
+
+1280
+00:50:59,359 --> 00:51:01,359
+out you can help me out by smashing that
+
+1281
+00:51:01,359 --> 00:51:03,040
+like button leave a random comment down
+
+1282
+00:51:03,040 --> 00:51:04,800
+below and subscribe if you'd like to
+
+1283
+00:51:04,800 --> 00:51:08,079
+become a fellow bro
+
+1284
+00:51:08,079 --> 00:51:09,760
+hey everyone i'm going to try and
+
+1285
+00:51:09,760 --> 00:51:11,839
+explain everything i can about forms in
+
+1286
+00:51:11,839 --> 00:51:13,760
+about eight minutes to create a form
+
+1287
+00:51:13,760 --> 00:51:16,000
+element we'll need a pair of form tags
+
+1288
+00:51:16,000 --> 00:51:17,520
+there's an opening form tag and a
+
+1289
+00:51:17,520 --> 00:51:19,280
+closing form tag and depending on the
+
+1290
+00:51:19,280 --> 00:51:21,280
+user input that you need there is an
+
+1291
+00:51:21,280 --> 00:51:23,599
+input element and you can set the type
+
+1292
+00:51:23,599 --> 00:51:26,000
+attribute to whatever you need let's say
+
+1293
+00:51:26,000 --> 00:51:28,000
+we need some text from a user like a
+
+1294
+00:51:28,000 --> 00:51:30,319
+first name within our form there is a
+
+1295
+00:51:30,319 --> 00:51:32,079
+text box where we can enter in some user
+
+1296
+00:51:32,079 --> 00:51:33,839
+information so we should probably let
+
+1297
+00:51:33,839 --> 00:51:35,520
+the user know what we want them to type
+
+1298
+00:51:35,520 --> 00:51:38,160
+in i will precede this input element
+
+1299
+00:51:38,160 --> 00:51:40,640
+with a label
+
+1300
+00:51:40,640 --> 00:51:44,000
+let's say first name and a user can type
+
+1301
+00:51:44,000 --> 00:51:46,160
+in their first name now it is considered
+
+1302
+00:51:46,160 --> 00:51:48,480
+good practice to fill out a for
+
+1303
+00:51:48,480 --> 00:51:51,119
+attribute within the label and set this
+
+1304
+00:51:51,119 --> 00:51:53,680
+to whatever you want let's say fname and
+
+1305
+00:51:53,680 --> 00:51:55,839
+within the associated input elements i
+
+1306
+00:51:55,839 --> 00:51:59,359
+will set the id also equal to fname
+
+1307
+00:51:59,359 --> 00:52:01,680
+whatever's within the four attribute
+
+1308
+00:52:01,680 --> 00:52:03,920
+this does a couple things one if i was
+
+1309
+00:52:03,920 --> 00:52:06,800
+to click on this label this will select
+
+1310
+00:52:06,800 --> 00:52:09,440
+my input box it's also helpful for
+
+1311
+00:52:09,440 --> 00:52:11,440
+people that are using screen readers so
+
+1312
+00:52:11,440 --> 00:52:13,599
+that they can easily navigate your form
+
+1313
+00:52:13,599 --> 00:52:16,240
+there is also a name attribute when we
+
+1314
+00:52:16,240 --> 00:52:18,480
+submit this data what sort of name do we
+
+1315
+00:52:18,480 --> 00:52:20,240
+want to give that data think of it like
+
+1316
+00:52:20,240 --> 00:52:22,640
+a variable i will also name this fname
+
+1317
+00:52:22,640 --> 00:52:24,960
+as well within the input element there
+
+1318
+00:52:24,960 --> 00:52:27,280
+is a placeholder to display some default
+
+1319
+00:52:27,280 --> 00:52:29,520
+text to a user by setting the
+
+1320
+00:52:29,520 --> 00:52:32,559
+placeholder attribute equal to some text
+
+1321
+00:52:32,559 --> 00:52:35,040
+like spongebob so if i was to click
+
+1322
+00:52:35,040 --> 00:52:37,280
+within this input field and type
+
+1323
+00:52:37,280 --> 00:52:38,720
+something that will get rid of my
+
+1324
+00:52:38,720 --> 00:52:40,880
+placeholder let's create an input field
+
+1325
+00:52:40,880 --> 00:52:42,640
+for a last name and really we can just
+
+1326
+00:52:42,640 --> 00:52:45,280
+copy this and make a few changes to it
+
+1327
+00:52:45,280 --> 00:52:47,440
+so copy both the label and the input
+
+1328
+00:52:47,440 --> 00:52:50,240
+element uh let's change this from first
+
+1329
+00:52:50,240 --> 00:52:52,319
+name to last name
+
+1330
+00:52:52,319 --> 00:52:54,880
+change four as well to lname
+
+1331
+00:52:54,880 --> 00:52:57,680
+id will be lname and let's make name l
+
+1332
+00:52:57,680 --> 00:52:58,880
+name as well
+
+1333
+00:52:58,880 --> 00:53:01,200
+and the placeholder how about square
+
+1334
+00:53:01,200 --> 00:53:02,319
+pants
+
+1335
+00:53:02,319 --> 00:53:04,079
+these labels and input elements will
+
+1336
+00:53:04,079 --> 00:53:06,400
+appear on the same line to separate them
+
+1337
+00:53:06,400 --> 00:53:08,319
+and treat them as block level elements i
+
+1338
+00:53:08,319 --> 00:53:10,640
+will add each of these pairs to their
+
+1339
+00:53:10,640 --> 00:53:14,440
+own div element
+
+1340
+00:53:16,240 --> 00:53:19,359
+perhaps i'll add a line break as well
+
+1341
+00:53:19,359 --> 00:53:21,440
+okay now with forms there are built-in
+
+1342
+00:53:21,440 --> 00:53:24,160
+buttons too
+
+1343
+00:53:24,960 --> 00:53:28,559
+we will set the input type equal to
+
+1344
+00:53:28,559 --> 00:53:31,440
+reset so if i were to type in some text
+
+1345
+00:53:31,440 --> 00:53:33,599
+and click reset that will reset
+
+1346
+00:53:33,599 --> 00:53:35,760
+whatever's within my form and there is a
+
+1347
+00:53:35,760 --> 00:53:38,720
+submit button as well
+
+1348
+00:53:38,720 --> 00:53:41,760
+i will set the type equal to submit so
+
+1349
+00:53:41,760 --> 00:53:43,520
+currently our data doesn't have any
+
+1350
+00:53:43,520 --> 00:53:46,079
+place to go to so if i were to click the
+
+1351
+00:53:46,079 --> 00:53:48,160
+submit button this data is not going to
+
+1352
+00:53:48,160 --> 00:53:50,559
+go anywhere so if i need to send this
+
+1353
+00:53:50,559 --> 00:53:53,200
+data to a page i will list that page
+
+1354
+00:53:53,200 --> 00:53:55,440
+within the action attribute of my
+
+1355
+00:53:55,440 --> 00:53:57,520
+opening form element
+
+1356
+00:53:57,520 --> 00:53:59,359
+so we'll need the help of a dynamic
+
+1357
+00:53:59,359 --> 00:54:02,000
+programming language php for example
+
+1358
+00:54:02,000 --> 00:54:03,280
+we're not going to focus on
+
+1359
+00:54:03,280 --> 00:54:04,880
+functionality in this video but rather
+
+1360
+00:54:04,880 --> 00:54:07,040
+the structure of a form so if i need to
+
+1361
+00:54:07,040 --> 00:54:08,400
+send this to
+
+1362
+00:54:08,400 --> 00:54:11,599
+a php page i will list that php page
+
+1363
+00:54:11,599 --> 00:54:13,760
+within the action attribute there is
+
+1364
+00:54:13,760 --> 00:54:16,319
+also an associated method attribute two
+
+1365
+00:54:16,319 --> 00:54:20,240
+common values are get and post
+
+1366
+00:54:20,240 --> 00:54:22,720
+get is considered insecure it's going to
+
+1367
+00:54:22,720 --> 00:54:25,599
+append your data to the url of your web
+
+1368
+00:54:25,599 --> 00:54:27,839
+page so for example if i set the method
+
+1369
+00:54:27,839 --> 00:54:30,079
+to get and type in some information
+
+1370
+00:54:30,079 --> 00:54:33,040
+and click submit it's going to append my
+
+1371
+00:54:33,040 --> 00:54:35,920
+data to the end of my url so it's going
+
+1372
+00:54:35,920 --> 00:54:37,920
+to add a question mark then all of my
+
+1373
+00:54:37,920 --> 00:54:40,000
+data if you need to submit some secure
+
+1374
+00:54:40,000 --> 00:54:42,240
+information like a password do not use
+
+1375
+00:54:42,240 --> 00:54:44,160
+get i would say that this is useful for
+
+1376
+00:54:44,160 --> 00:54:46,640
+things like search boxes if a user needs
+
+1377
+00:54:46,640 --> 00:54:48,640
+to navigate your web page for maybe some
+
+1378
+00:54:48,640 --> 00:54:50,640
+sort of keyword so it's better to use
+
+1379
+00:54:50,640 --> 00:54:53,200
+post to submit some secure information
+
+1380
+00:54:53,200 --> 00:54:54,480
+but this isn't going to do anything
+
+1381
+00:54:54,480 --> 00:54:56,240
+obviously because we do not have a
+
+1382
+00:54:56,240 --> 00:54:58,880
+server set up now there is a required
+
+1383
+00:54:58,880 --> 00:55:00,720
+boolean attribute you can add if
+
+1384
+00:55:00,720 --> 00:55:02,000
+somebody needs to submit some
+
+1385
+00:55:02,000 --> 00:55:04,720
+information they are required to fill
+
+1386
+00:55:04,720 --> 00:55:06,880
+out any input elements that have this
+
+1387
+00:55:06,880 --> 00:55:09,200
+boolean attribute of required so if i
+
+1388
+00:55:09,200 --> 00:55:10,640
+just attempt to submit this without
+
+1389
+00:55:10,640 --> 00:55:12,720
+typing in anything there is a small
+
+1390
+00:55:12,720 --> 00:55:14,799
+pop-up box that says please fill out
+
+1391
+00:55:14,799 --> 00:55:16,720
+this field all right i'm going to go
+
+1392
+00:55:16,720 --> 00:55:18,559
+kind of quick through these next input
+
+1393
+00:55:18,559 --> 00:55:20,319
+elements just because i think we have
+
+1394
+00:55:20,319 --> 00:55:22,960
+the hang of the general context of input
+
+1395
+00:55:22,960 --> 00:55:25,920
+elements so next we have password fields
+
+1396
+00:55:25,920 --> 00:55:28,480
+you set the type equal to password so if
+
+1397
+00:55:28,480 --> 00:55:30,480
+somebody types in characters they will
+
+1398
+00:55:30,480 --> 00:55:32,799
+be hidden if you need to set a max size
+
+1399
+00:55:32,799 --> 00:55:35,680
+of your password there is a max length
+
+1400
+00:55:35,680 --> 00:55:38,000
+attribute let's set this to maybe 12 so
+
+1401
+00:55:38,000 --> 00:55:40,000
+we can type in no more than 12
+
+1402
+00:55:40,000 --> 00:55:41,920
+characters for a password and you can
+
+1403
+00:55:41,920 --> 00:55:44,400
+also add that required boolean attribute
+
+1404
+00:55:44,400 --> 00:55:45,280
+too
+
+1405
+00:55:45,280 --> 00:55:48,240
+for an email element set the type equal
+
+1406
+00:55:48,240 --> 00:55:50,960
+to email
+
+1407
+00:55:51,440 --> 00:55:53,920
+in order to submit an email we need an
+
+1408
+00:55:53,920 --> 00:55:56,240
+at character within our email otherwise
+
+1409
+00:55:56,240 --> 00:55:58,160
+we cannot submit this information and
+
+1410
+00:55:58,160 --> 00:56:00,799
+perhaps i'll add a placeholder as well
+
+1411
+00:56:00,799 --> 00:56:03,119
+placeholder equals s
+
+1412
+00:56:03,119 --> 00:56:04,079
+pants
+
+1413
+00:56:04,079 --> 00:56:06,720
+at gmail.com
+
+1414
+00:56:06,720 --> 00:56:09,119
+so there is our placeholder for a
+
+1415
+00:56:09,119 --> 00:56:11,119
+telephone number you're going to set the
+
+1416
+00:56:11,119 --> 00:56:13,680
+type equal to tell
+
+1417
+00:56:13,680 --> 00:56:16,480
+and i do have a placeholder as well if
+
+1418
+00:56:16,480 --> 00:56:18,960
+you need the user to type in a date like
+
+1419
+00:56:18,960 --> 00:56:22,480
+a birth date there is a type date which
+
+1420
+00:56:22,480 --> 00:56:24,400
+includes an interactive calendar to
+
+1421
+00:56:24,400 --> 00:56:26,160
+select a date
+
+1422
+00:56:26,160 --> 00:56:28,400
+a user can type in a number if you set
+
+1423
+00:56:28,400 --> 00:56:30,559
+the type equal to number let's say that
+
+1424
+00:56:30,559 --> 00:56:32,400
+the user is buying something from a
+
+1425
+00:56:32,400 --> 00:56:34,400
+store there are some arrows where they
+
+1426
+00:56:34,400 --> 00:56:36,720
+can increase or decrease the quantity
+
+1427
+00:56:36,720 --> 00:56:38,480
+but we should probably place some limits
+
+1428
+00:56:38,480 --> 00:56:39,920
+they can type in basically whatever
+
+1429
+00:56:39,920 --> 00:56:42,160
+number they want they want negative one
+
+1430
+00:56:42,160 --> 00:56:43,680
+billion items
+
+1431
+00:56:43,680 --> 00:56:45,760
+so we can set the min and the max i'll
+
+1432
+00:56:45,760 --> 00:56:49,119
+set the min equal to 0 and of the max
+
+1433
+00:56:49,119 --> 00:56:51,920
+equal to what about 99
+
+1434
+00:56:51,920 --> 00:56:54,079
+and you can also set a default value too
+
+1435
+00:56:54,079 --> 00:56:56,799
+i'll set the default value equal to 1.
+
+1436
+00:56:56,799 --> 00:56:58,720
+next we have radio buttons with radio
+
+1437
+00:56:58,720 --> 00:57:00,720
+buttons we can only select one radio
+
+1438
+00:57:00,720 --> 00:57:02,880
+button from any one group perhaps we'll
+
+1439
+00:57:02,880 --> 00:57:05,200
+have the user select a title are they a
+
+1440
+00:57:05,200 --> 00:57:08,079
+mr a miss or a doctor
+
+1441
+00:57:08,079 --> 00:57:10,480
+so i'm going to create a pair of labels
+
+1442
+00:57:10,480 --> 00:57:13,760
+and input for each option that we have
+
+1443
+00:57:13,760 --> 00:57:16,240
+so we will have a mr option
+
+1444
+00:57:16,240 --> 00:57:17,280
+miss
+
+1445
+00:57:17,280 --> 00:57:18,440
+and
+
+1446
+00:57:18,440 --> 00:57:22,640
+phd okay i will set the input type equal
+
+1447
+00:57:22,640 --> 00:57:25,119
+to radio and then do that with each of
+
+1448
+00:57:25,119 --> 00:57:27,680
+these pairs
+
+1449
+00:57:27,680 --> 00:57:30,000
+so we can select more than one because
+
+1450
+00:57:30,000 --> 00:57:32,480
+these are all not within the same group
+
+1451
+00:57:32,480 --> 00:57:34,400
+to set them all within the same group we
+
+1452
+00:57:34,400 --> 00:57:36,160
+will all have them have the same
+
+1453
+00:57:36,160 --> 00:57:37,680
+matching name
+
+1454
+00:57:37,680 --> 00:57:40,720
+let's say that the name will be title
+
+1455
+00:57:40,720 --> 00:57:42,720
+so therefore we can only select one now
+
+1456
+00:57:42,720 --> 00:57:44,559
+since they're all within the same group
+
+1457
+00:57:44,559 --> 00:57:46,240
+and that's kind of the idea behind radio
+
+1458
+00:57:46,240 --> 00:57:48,480
+buttons you can only select one and we
+
+1459
+00:57:48,480 --> 00:57:51,839
+will set an associated value of let's
+
+1460
+00:57:51,839 --> 00:57:54,799
+say mister for the first value
+
+1461
+00:57:54,799 --> 00:57:56,799
+misses for the second
+
+1462
+00:57:56,799 --> 00:57:59,440
+and doctor for the last one
+
+1463
+00:57:59,440 --> 00:58:01,200
+then i'm just going to precede all of
+
+1464
+00:58:01,200 --> 00:58:04,720
+these with a separate label
+
+1465
+00:58:04,720 --> 00:58:07,520
+uh let's say title
+
+1466
+00:58:07,520 --> 00:58:10,079
+and i will set the four attribute equal
+
+1467
+00:58:10,079 --> 00:58:12,640
+to title and within each of these radio
+
+1468
+00:58:12,640 --> 00:58:14,319
+button labels when i click on one of
+
+1469
+00:58:14,319 --> 00:58:16,240
+these labels i also want to be able to
+
+1470
+00:58:16,240 --> 00:58:18,480
+select one of these radio buttons so i
+
+1471
+00:58:18,480 --> 00:58:20,559
+will set the for attribute equal to a
+
+1472
+00:58:20,559 --> 00:58:23,760
+unique id so let's say mister
+
+1473
+00:58:23,760 --> 00:58:26,480
+the id will be mister
+
+1474
+00:58:26,480 --> 00:58:29,680
+and repeat the same steps
+
+1475
+00:58:33,359 --> 00:58:35,440
+okay so when we click on these labels we
+
+1476
+00:58:35,440 --> 00:58:37,119
+should be able to select our radio
+
+1477
+00:58:37,119 --> 00:58:38,160
+buttons
+
+1478
+00:58:38,160 --> 00:58:41,119
+nice with drop down menus instead of a
+
+1479
+00:58:41,119 --> 00:58:43,599
+type we are going to use a pair of
+
+1480
+00:58:43,599 --> 00:58:46,000
+select tags so there's an opening select
+
+1481
+00:58:46,000 --> 00:58:48,400
+tag and a closing select tag and we list
+
+1482
+00:58:48,400 --> 00:58:50,720
+individual options within the select
+
+1483
+00:58:50,720 --> 00:58:53,119
+element
+
+1484
+00:58:53,119 --> 00:58:55,040
+we'll give our user three options from
+
+1485
+00:58:55,040 --> 00:58:57,520
+this drop down menu they can pay with a
+
+1486
+00:58:57,520 --> 00:59:01,280
+visa a mastercard or a gift card
+
+1487
+00:59:01,280 --> 00:59:05,480
+and i will give each of these a value
+
+1488
+00:59:07,920 --> 00:59:10,480
+okay we now have a payment field and the
+
+1489
+00:59:10,480 --> 00:59:12,400
+user can select an option from this drop
+
+1490
+00:59:12,400 --> 00:59:13,760
+down menu
+
+1491
+00:59:13,760 --> 00:59:15,599
+and the last input type i will explain
+
+1492
+00:59:15,599 --> 00:59:18,880
+in this video is the checkbox type so
+
+1493
+00:59:18,880 --> 00:59:20,880
+let's say we have a subscribe button and
+
+1494
+00:59:20,880 --> 00:59:22,720
+you can go ahead and smash that
+
+1495
+00:59:22,720 --> 00:59:24,720
+subscribe button so just set the type
+
+1496
+00:59:24,720 --> 00:59:27,680
+equal to checkbox for well a checkbox
+
+1497
+00:59:27,680 --> 00:59:29,760
+well yeah everybody that's how to create
+
+1498
+00:59:29,760 --> 00:59:31,760
+an html form there's still some more
+
+1499
+00:59:31,760 --> 00:59:33,839
+advanced input types we did not cover
+
+1500
+00:59:33,839 --> 00:59:35,599
+but these are the very basics i would
+
+1501
+00:59:35,599 --> 00:59:37,520
+say if you found this video helpful
+
+1502
+00:59:37,520 --> 00:59:39,280
+please remember to smash that like
+
+1503
+00:59:39,280 --> 00:59:41,119
+button leave a random comment down below
+
+1504
+00:59:41,119 --> 00:59:42,880
+and subscribe if you'd like to become a
+
+1505
+00:59:42,880 --> 00:59:46,200
+fellow bro
+
+1506
+00:59:59,760 --> 01:00:01,839
+you
+

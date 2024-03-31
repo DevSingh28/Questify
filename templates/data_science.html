@@ -1,0 +1,361 @@
+{% include 'header.html' %}
+<div class="mt-2"></div>
+<div class="row">
+  <div class="col-4">
+    <nav id="navbar-example3" class="navbar navbar-light bg-light flex-column align-items-stretch p-3">
+      <nav class="nav nav-pills flex-column">
+        <a class="nav-link" href="#item-1">Data Science Basics</a>
+        <a class="nav-link" href="#item-2">Data Acquisition</a>
+        <a class="nav-link" href="#item-3">Data Cleaning</a>
+        <a class="nav-link" href="#item-4">Exploratory Data Analysis (EDA)</a>
+        <a class="nav-link" href="#item-5">Machine Learning</a>
+        <a class="nav-link" href="#item-6">Data Visualization</a>
+        <a class="nav-link" href="#item-7">Feature Engineering</a>
+        <a class="nav-link" href="#item-8">Model Evaluation</a>
+        <a class="nav-link" href="#item-9">Data Preprocessing</a>
+        <a class="nav-link" href="#item-10">Model Deployment</a>
+        <a class="nav-link" href="#item-11">New & Updated Topics</a>
+      </nav>
+    </nav>
+  </div>
+
+  <div class="col-8">
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+<div id="item-1">
+    <h2>Data Science Basics</h2>
+    <p><b>Definition:</b> Data science is an interdisciplinary field that uses scientific methods, algorithms, processes, and systems to extract insights and knowledge from structured and unstructured data.</p>
+    <ul>
+        <li><b>Key Components:</b>
+            <ul>
+                <li>Data Acquisition</li>
+                <li>Data Cleaning</li>
+                <li>Exploratory Data Analysis (EDA)</li>
+                <li>Data Modeling and Machine Learning</li>
+                <li>Visualization and Communication</li>
+            </ul>
+        </li>
+        <li><b>Tools:</b>
+            <ul>
+                <li>Python (with libraries like NumPy, Pandas, Matplotlib, and Scikit-Learn)</li>
+                <li>R</li>
+                <li>SQL</li>
+                <li>Tableau</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+        <hr>
+        <hr>
+<div id="item-2">
+    <h2>Data Acquisition</h2>
+    <p><b>Definition:</b> Data acquisition is the process of collecting raw data from various sources, including databases, files, APIs, sensors, and web scraping.</p>
+    <ul>
+        <li><b>Common Data Sources:</b>
+            <ul>
+                <li>CSV files</li>
+                <li>Excel spreadsheets</li>
+                <li>SQL databases</li>
+                <li>JSON and XML files</li>
+                <li>APIs (e.g., RESTful APIs)</li>
+                <li>Web scraping</li>
+            </ul>
+        </li>
+        <li><b>Tools:</b>
+            <ul>
+                <li>Pandas for data manipulation</li>
+                <li>Requests for web scraping</li>
+                <li>SQLAlchemy for SQL databases</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+        <hr>
+        <hr>
+<div id="item-3">
+        <h2>Data Cleaning</h2>
+    <p><b>Definition:</b> Data cleaning is the process of identifying and correcting errors or inconsistencies in a dataset to improve its quality and reliability for analysis.</p>
+    <ul>
+        <li><b>Common Data Cleaning Techniques:</b>
+            <ul>
+                <li>Handling missing values</li>
+                <li>Removing duplicates</li>
+                <li>Standardizing data formats</li>
+                <li>Correcting data errors</li>
+                <li>Outlier detection and treatment</li>
+            </ul>
+        </li>
+        <li><b>Example:</b> Handling Missing Values</li>
+        <pre><code>
+import pandas as pd
+
+# Load dataset
+df = pd.read_csv('data.csv')
+
+# Fill missing values with mean
+df.fillna(df.mean(), inplace=True)
+
+print(df.head())
+        </code></pre>
+    </ul>
+</div>
+        <hr>
+        <hr>
+<div id="item-4">
+        <h2>Exploratory Data Analysis (EDA)</h2>
+    <p><b>Definition:</b> Exploratory Data Analysis is an approach to analyze and summarize the main characteristics of a dataset using visual methods and statistical techniques.</p>
+    <ul>
+        <li><b>Common EDA Techniques:</b>
+            <ul>
+                <li>Summary statistics</li>
+                <li>Data visualization (histograms, scatter plots, etc.)</li>
+                <li>Correlation analysis</li>
+                <li>Dimensionality reduction (PCA)</li>
+                <li>Feature engineering</li>
+            </ul>
+        </li>
+        <li><b>Example:</b> Data Visualization</li>
+        <pre><code>
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Load dataset
+df = sns.load_dataset('iris')
+
+# Pairplot
+sns.pairplot(df, hue='species')
+plt.show()
+        </code></pre>
+    </ul>
+</div>
+        <hr>
+        <hr>
+<div id="item-5">
+        <h2>Machine Learning</h2>
+    <p><b>Definition:</b> Machine Learning is a subset of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed.</p>
+    <ul>
+        <li><b>Common Machine Learning Algorithms:</b>
+            <ul>
+                <li>Linear Regression</li>
+                <li>Logistic Regression</li>
+                <li>Decision Trees</li>
+                <li>Random Forests</li>
+                <li>Support Vector Machines (SVM)</li>
+                <li>K-Nearest Neighbors (KNN)</li>
+                <li>Neural Networks</li>
+            </ul>
+        </li>
+        <li><b>Example:</b> Linear Regression</li>
+        <pre><code>
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_squared_error
+
+# Load dataset
+X, y = ...
+
+# Split data into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Train model
+model = LinearRegression()
+model.fit(X_train, y_train)
+
+# Predict
+y_pred = model.predict(X_test)
+
+# Evaluate
+mse = mean_squared_error(y_test, y_pred)
+print("Mean Squared Error:", mse)
+        </code></pre>
+    </ul>
+</div>
+        <hr>
+        <hr>
+<div id="item-6">
+     <h2>Visualization</h2>
+    <p><b>Definition:</b> Visualization is the graphical representation of data and information to facilitate understanding and analysis.</p>
+    <ul>
+        <li><b>Common Visualization Libraries:</b>
+            <ul>
+                <li>Matplotlib</li>
+                <li>Seaborn</li>
+                <li>Plotly</li>
+                <li>Bokeh</li>
+                <li>Altair</li>
+                <li>ggplot</li>
+            </ul>
+        </li>
+        <li><b>Example:</b> Plotting a Histogram</li>
+        <pre><code>
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Load dataset
+df = sns.load_dataset('tips')
+
+# Plot histogram
+plt.figure(figsize=(8, 6))
+sns.histplot(df['total_bill'], bins=10, kde=True)
+plt.xlabel('Total Bill')
+plt.ylabel('Frequency')
+plt.title('Distribution of Total Bill')
+plt.show()
+        </code></pre>
+    </ul>
+</div>
+
+        <hr>
+        <hr>
+<div id="item-7">
+        <h2>Feature Engineering</h2>
+    <p><b>Definition:</b> Feature engineering is the process of creating new features or transforming existing features to improve the performance of machine learning models.</p>
+    <ul>
+        <li><b>Common Feature Engineering Techniques:</b>
+            <ul>
+                <li>Creating polynomial features</li>
+                <li>Feature decomposition (PCA, LDA)</li>
+                <li>Feature extraction (TF-IDF, Word embeddings)</li>
+                <li>Feature aggregation</li>
+                <li>Handling time-series data</li>
+            </ul>
+        </li>
+        <li><b>Example:</b> Creating Polynomial Features</li>
+        <pre><code>
+from sklearn.preprocessing import PolynomialFeatures
+
+# Load dataset
+X = ...
+
+# Initialize polynomial features transformer
+poly = PolynomialFeatures(degree=2)
+
+# Create polynomial features
+X_poly = poly.fit_transform(X)
+        </code></pre>
+    </ul>
+</div>
+        <hr>
+        <hr>
+
+<div id="item-8">
+    <h2>Model Evaluation</h2>
+    <p><b>Definition:</b> Model evaluation is the process of assessing the performance of machine learning models using various metrics and techniques.</p>
+    <ul>
+        <li><b>Common Model Evaluation Metrics:</b>
+            <ul>
+                <li>Accuracy</li>
+                <li>Precision, Recall, F1-score</li>
+                <li>ROC-AUC score</li>
+                <li>Mean Squared Error (MSE)</li>
+                <li>R-squared (Coefficient of Determination)</li>
+            </ul>
+        </li>
+        <li><b>Example:</b> Evaluating Classification Model</li>
+        <pre><code>
+from sklearn.metrics import accuracy_score, classification_report, roc_auc_score
+
+# Load model predictions and ground truth labels
+y_true = ...
+y_pred = ...
+
+# Calculate accuracy
+accuracy = accuracy_score(y_true, y_pred)
+
+# Generate classification report
+report = classification_report(y_true, y_pred)
+
+# Calculate ROC-AUC score
+roc_auc = roc_auc_score(y_true, y_pred)
+        </code></pre>
+    </ul>
+</div>
+        <hr>
+        <hr>
+        <div id="item-9">
+    <h2>Data Preprocessing</h2>
+    <p><b>Definition:</b> Data preprocessing is the initial step in the data analysis pipeline where raw data is cleaned, transformed, and prepared for further analysis.</p>
+    <ul>
+        <li><b>Common Data Preprocessing Techniques:</b>
+            <ul>
+                <li>Normalization/Scaling</li>
+                <li>Feature encoding (One-Hot Encoding, Label Encoding)</li>
+                <li>Feature selection</li>
+                <li>Data splitting (training/validation/test sets)</li>
+                <li>Feature scaling (Standardization, Min-Max Scaling)</li>
+            </ul>
+        </li>
+        <li><b>Example:</b> Normalization</li>
+        <pre><code>
+from sklearn.preprocessing import MinMaxScaler
+
+# Load dataset
+X = ...
+
+# Initialize scaler
+scaler = MinMaxScaler()
+
+# Normalize features
+X_normalized = scaler.fit_transform(X)
+        </code></pre>
+    </ul>
+</div>
+<div id="item-10">
+    <h2>Model Deployment</h2>
+    <p><b>Definition:</b> Model deployment is the process of making machine learning models accessible and operational in production environments to generate predictions or insights.</p>
+    <ul>
+        <li><b>Common Deployment Methods:</b>
+            <ul>
+                <li>APIs</li>
+                <li>Containerization (Docker)</li>
+                <li>Serverless Computing (AWS Lambda)</li>
+                <li>Web Applications</li>
+            </ul>
+        </li>
+        <li><b>Example:</b> Deploying a Machine Learning Model as a REST API</li>
+        <pre><code>
+# Flask API example
+from flask import Flask, request, jsonify
+import pickle
+
+app = Flask(__name__)
+
+# Load the trained model
+model = pickle.load(open('model.pkl', 'rb'))
+
+@app.route('/predict', methods=['POST'])
+def predict():
+    data = request.get_json(force=True)
+    prediction = model.predict([data['input']])
+    return jsonify({'prediction': str(prediction)})
+
+if __name__ == '__main__':
+    app.run(debug=True)
+        </code></pre>
+    </ul>
+</div>
+
+        <hr>
+        <hr>
+
+
+<div id="item-11">
+    {% if data.new_data %}
+    <p>{{ data.new_data|safe }}</p>
+    <a href="{{ url_for('edit_content', category=data.category) }}">Edit this</a>
+{% else %}
+    <p>This time no new topic is available</p>
+{% endif %}
+
+
+</div>
+        <hr>
+        <hr>
+
+
+
+
+  </div>
+</div>
+</div>
+{% include 'footer.html' %}

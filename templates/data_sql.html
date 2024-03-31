@@ -1,0 +1,197 @@
+{% include 'header.html' %}
+<div class="mt-2"></div>
+<div class="row">
+  <div class="col-4">
+    <nav id="navbar-example3" class="navbar navbar-light bg-light flex-column align-items-stretch p-3">
+      <nav class="nav nav-pills flex-column">
+        <a class="nav-link" href="#item-1">SQL Introduction</a>
+        <a class="nav-link" href="#item-2">SQL Syntax</a>
+        <a class="nav-link" href="#item-3">SQL Select</a>
+        <a class="nav-link" href="#item-4">SQL Where</a>
+        <a class="nav-link" href="#item-5">SQL Order By</a>
+        <a class="nav-link" href="#item-6">SQL AND</a>
+        <a class="nav-link" href="#item-7">SQL OR</a>
+        <a class="nav-link" href="#item-8">SQL NOT</a>
+        <a class="nav-link" href="#item-9">SQL Insert Into</a>
+        <a class="nav-link" href="#item-10">SQL CRUD Operations</a>
+        <a class="nav-link" href="#item-11">SQL Count</a>
+        <a class="nav-link" href="#item-12">SQL Sum</a>
+        <a class="nav-link" href="#item-13">SQL Operations</a>
+        <a class="nav-link" href="#item-14">SQL Inheritance</a>
+        <a class="nav-link" href="#item-15">New & Updated Topics</a>
+      </nav>
+    </nav>
+  </div>
+
+  <div class="col-8">
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+<div id="item-1">
+        <h3>SQL Intro</h3>
+        <p><b>Definition:</b> SQL (Structured Query Language) is a standardized programming language used to manage relational databases. It allows users to perform various operations such as querying, inserting, updating, and deleting data from databases.</p>
+        <p><b>Usage:</b> SQL is widely used in database management systems like MySQL, PostgreSQL, SQLite, and Microsoft SQL Server for interacting with databases and manipulating data.</p>
+        <p><b>Benefits:</b></p>
+        <ul>
+            <li>Provides a simple and powerful syntax for managing databases.</li>
+            <li>Allows for efficient data retrieval and manipulation.</li>
+            <li>Supports transactions to ensure data integrity.</li>
+            <li>Facilitates data analysis and reporting.</li>
+        </ul>
+    </div>
+        <hr>
+        <hr>
+    <div id="item-2">
+        <h3>SQL Syntax</h3>
+        <p><b>Example:</b></p>
+        <pre><code>SELECT column1, column2
+FROM table_name
+WHERE condition;</code></pre>
+        <p><b>Explanation:</b> SQL statements typically follow a specific syntax. The SELECT statement is used to retrieve data from a database table. It specifies the columns to be retrieved from the table and can include a WHERE clause to filter the results based on specified conditions.</p>
+    </div>
+<hr>
+        <hr>
+    <div id="item-3">
+        <h3>SQL SELECT</h3>
+        <p><b>Example:</b></p>
+        <pre><code>SELECT * FROM customers;</code></pre>
+        <p><b>Explanation:</b> The SELECT statement is used to retrieve data from one or more tables in a database. In this example, the wildcard (*) is used to select all columns from the "customers" table.</p>
+    </div>
+<hr>
+        <hr>
+    <div id="item-4">
+        <h3>SQL WHERE</h3>
+        <p><b>Example:</b></p>
+        <pre><code>SELECT * FROM customers WHERE country = 'USA';</code></pre>
+        <p><b>Explanation:</b> The WHERE clause is used to filter records based on specified conditions. In this example, only the records with the country 'USA' will be selected from the "customers" table.</p>
+    </div>
+<hr>
+        <hr>
+    <div id="item-5">
+        <h3>SQL ORDER BY</h3>
+        <p><b>Example:</b></p>
+        <pre><code>SELECT * FROM customers ORDER BY last_name;</code></pre>
+        <p><b>Explanation:</b> The ORDER BY clause is used to sort the result set in ascending or descending order. In this example, the records from the "customers" table will be sorted by the "last_name" column in ascending order.</p>
+    </div>
+<hr>
+        <hr>
+    <div id="item-6">
+        <h3>SQL AND</h3>
+        <p><b>Example:</b></p>
+        <pre><code>SELECT * FROM customers WHERE country = 'USA' AND city = 'New York';</code></pre>
+        <p><b>Explanation:</b> The AND operator is used to combine multiple conditions in a WHERE clause. In this example, only the records with both 'USA' as the country and 'New York' as the city will be selected from the "customers" table.</p>
+    </div>
+<hr>
+        <hr>
+    <div id="item-7">
+        <h3>SQL OR</h3>
+        <p><b>Example:</b></p>
+        <pre><code>SELECT * FROM customers WHERE country = 'USA' OR country = 'Canada';</code></pre>
+        <p><b>Explanation:</b> The OR operator is used to combine multiple conditions in a WHERE clause. In this example, records with either 'USA' or 'Canada' as the country will be selected from the "customers" table.</p>
+    </div>
+<hr>
+        <hr>
+    <div id="item-8">
+        <h3>SQL NOT</h3>
+        <p><b>Example:</b></p>
+        <pre><code>SELECT * FROM customers WHERE NOT country = 'USA';</code></pre>
+        <p><b>Explanation:</b> The NOT operator is used to negate a condition in a WHERE clause. In this example, records with a country other than 'USA' will be selected from the "customers" table.</p>
+    </div>
+<hr>
+        <hr>
+    <div id="item-9">
+        <h3>SQL Insert Into</h3>
+        <p><b>Example:</b></p>
+        <pre><code>INSERT INTO customers (first_name, last_name, email) VALUES ('John', 'Doe', 'john@example.com');</code></pre>
+        <p><b>Explanation:</b> The INSERT INTO statement is used to insert new records into a table. In this example, a new customer record with the specified first name, last name, and email address will be inserted into the "customers" table.</p>
+    </div>
+<hr>
+        <hr>
+    <div id="item-10">
+    <h3>SQL CRUD Operations</h3>
+    <p><b>Definition:</b> CRUD stands for Create, Read, Update, and Delete. These are the four basic functions that can be performed on data in a database.</p>
+    <ul>
+        <li><b>Create (INSERT):</b> Adds new records to a table.</li>
+        <li><b>Read (SELECT):</b> Retrieves data from a table.</li>
+        <li><b>Update (UPDATE):</b> Modifies existing records in a table.</li>
+        <li><b>Delete (DELETE):</b> Removes records from a table.</li>
+    </ul>
+    <p><b>Examples:</b></p>
+    <p><b>1. Create (INSERT):</b></p>
+    <pre><code>INSERT INTO customers (name, email) VALUES ('John Doe', 'john@example.com');</code></pre>
+    <p><b>2. Read (SELECT):</b></p>
+    <pre><code>SELECT * FROM customers;</code></pre>
+    <p><b>3. Update (UPDATE):</b></p>
+    <pre><code>UPDATE customers SET email='john.doe@example.com' WHERE id=1;</code></pre>
+    <p><b>4. Delete (DELETE):</b></p>
+    <pre><code>DELETE FROM customers WHERE id=1;</code></pre>
+    <p><b>Explanation:</b> These examples demonstrate how CRUD operations are performed in SQL. The INSERT statement adds a new customer to the "customers" table, the SELECT statement retrieves all customers, the UPDATE statement updates the email of a specific customer, and the DELETE statement deletes a customer record based on their ID.</p>
+</div>
+
+<hr>
+        <hr>
+
+        <div id="item-11">
+    <h3>SQL COUNT</h3>
+    <p><b>Example:</b></p>
+    <pre><code>SELECT COUNT(*) FROM customers;</code></pre>
+    <p><b>Explanation:</b> The COUNT function is used to return the number of rows that match a specified condition. In this example, it counts the total number of records in the "customers" table.</p>
+</div>
+<hr>
+        <hr>
+<div id="item-12">
+    <h3>SQL SUM</h3>
+    <p><b>Example:</b></p>
+    <pre><code>SELECT SUM(order_amount) FROM orders;</code></pre>
+    <p><b>Explanation:</b> The SUM function is used to calculate the sum of values in a column. In this example, it calculates the total order amount from the "orders" table.</p>
+</div>
+<hr>
+        <hr>
+<div id="item-13">
+    <h3>SQL Operation</h3>
+    <p><b>Example:</b></p>
+    <pre><code>SELECT (column1 * column2) AS result FROM table_name;</code></pre>
+    <p><b>Explanation:</b> SQL supports various mathematical and string operations on data. In this example, it calculates the product of values in column1 and column2 and aliases the result as 'result'.</p>
+</div>
+<hr>
+        <hr>
+<div id="item-14">
+    <h3>SQL Inheritance</h3>
+    <p><b>Definition:</b> Inheritance in SQL refers to the ability of a child table (subclass) to inherit attributes and behaviors from a parent table (superclass).</p>
+    <p><b>Types of Inheritance:</b></p>
+    <ul>
+        <li><b>Single Table Inheritance:</b> All attributes of child classes are stored in a single table.</li>
+        <li><b>Class Table Inheritance:</b> Each class in the inheritance hierarchy has its own table.</li>
+        <li><b>Concrete Table Inheritance:</b> Each class in the inheritance hierarchy has its own table with all attributes.</li>
+    </ul>
+    <p><b>Example:</b></p>
+    <pre><code>CREATE TABLE employees (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    department VARCHAR(50)
+);
+
+CREATE TABLE managers (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    department VARCHAR(50),
+    manager_id INT,
+    FOREIGN KEY (manager_id) REFERENCES employees(id)
+);</code></pre>
+    <p><b>Explanation:</b> In this example, the "managers" table inherits attributes from the "employees" table. The "managers" table has an additional attribute "manager_id" to represent the manager's ID.</p>
+</div>
+        <hr>
+        <hr>
+<div id="item-15">
+    {% if data.new_data %}
+    <p>{{ data.new_data|safe }}</p>
+    <a href="{{ url_for('edit_content', category=data.category) }}">Edit this</a>
+{% else %}
+    <p>This time no new topic is available</p>
+{% endif %}
+</div>
+        <hr>
+        <hr>
+
+  </div>
+</div>
+</div>
+{% include 'footer.html' %}
