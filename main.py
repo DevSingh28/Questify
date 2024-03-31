@@ -13,15 +13,16 @@ import random
 from flask_ckeditor import CKEditor
 from flask_gravatar import Gravatar
 from functools import wraps
+import os
 
 app = Flask(__name__)
 Bootstrap5(app)
-app.secret_key = "edb782t7r4tx33898r39bxvxeufffd983y78"
+app.secret_key = os.environ.get("coffee_key")
 serializer = URLSafeTimedSerializer(app.secret_key)
 ckeditor = CKEditor(app)
 
-author_email = 'devsingh2017dp@gmail.com'
-author_password = 'glzbibdjkaccxydc'
+author_email = os.environ.get("myemail")
+author_password = os.environ.get("gm_pass")
 
 login_manager = LoginManager()
 login_manager.init_app(app)
@@ -36,7 +37,7 @@ class Base(DeclarativeBase):
     pass
 
 
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///main.db"
+app.config["SQLALCHEMY_DATABASE_URI"] = os.environ.get("DB_URI3", "sqlite:///main.db")
 
 db = SQLAlchemy(model_class=Base)
 db.init_app(app)
@@ -110,7 +111,7 @@ def send_mail(recipient, subject, body):
 
 
 def verify_password(user):
-    token = serializer.dumps(user.email, salt='nxhdweyhttdiivq5xgd')
+    token = serializer.dumps(user.email, salt=os.environ.get('dev_key'))
     reset_url = url_for('reset_password', token=token, _external=True)
     subject = "Password Reset Request"
     body = (
@@ -122,7 +123,7 @@ def admin_only(f):
     @wraps(f)
     def decorated(*args, **kwargs):
         if current_user.is_authenticated:
-            if current_user.email != 'devsingh2017dp@gmail.com':
+            if current_user.email != author_email:
                 return abort(403)
         else:
             return abort(403)
@@ -318,7 +319,7 @@ def forgot_password():
 @app.route('/reset_password/<token>', methods=['POST', 'GET'])
 def reset_password(token):
     try:
-        email = serializer.loads(token, salt="nxhdweyhttdiivq5xgd", max_age=3600)
+        email = serializer.loads(token, salt=os.environ.get("dev_key"), max_age=3600)
         user = User.query.filter_by(email=email).first()
         if not user:
             return redirect(url_for('login'))
